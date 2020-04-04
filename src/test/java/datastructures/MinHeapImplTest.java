@@ -1,5 +1,6 @@
 package datastructures;
 
+import datastructures.impl.LimitedSizedMinHeapImpl;
 import datastructures.impl.MinHeapImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -68,14 +69,14 @@ class MinHeapImplTest {
 
     @Test
     void checkInsertionInDefinedLength(){
-        heap = new MinHeapImpl(3);
-        heap.conditionalInsert(1);
-        heap.conditionalInsert(2);
-        heap.conditionalInsert(1);
-        heap.conditionalInsert(3);
-        heap.conditionalInsert(1);
-        heap.conditionalInsert(4);
-        heap.conditionalInsert(5);
+        heap = new LimitedSizedMinHeapImpl(3);
+        heap.insertElement(1);
+        heap.insertElement(2);
+        heap.insertElement(1);
+        heap.insertElement(3);
+        heap.insertElement(1);
+        heap.insertElement(4);
+        heap.insertElement(5);
         heap.print();
     }
 }

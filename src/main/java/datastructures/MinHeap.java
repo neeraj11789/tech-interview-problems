@@ -4,5 +4,5 @@ public interface MinHeap {
     void insert(int x);
     int delete();
     void print();
-    void conditionalInsert(int n);
+    void insertElement(int n);
 }

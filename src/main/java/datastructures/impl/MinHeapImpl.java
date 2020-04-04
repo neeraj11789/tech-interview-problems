@@ -14,6 +14,11 @@ public class MinHeapImpl implements MinHeap {
         arr[0] = Integer.MIN_VALUE;
     }
 
+    @Override
+    public void insertElement(int n) {
+        insert(n);
+    }
+
     public void insertCheck(int n){
 
         if(isFull() && n < getTop()){
@@ -23,21 +28,6 @@ public class MinHeapImpl implements MinHeap {
         int top = getTop();
         arr[1] = n;
         sinkDown(1);
-    }
-
-    /**
-     * Insert New Element if it is greater than the current minElement
-     */
-    public void conditionalInsert(int n){
-        if(!isFull()){
-            insert(n);
-        }else {
-            if( n > getTop()){
-                // delete top and insert
-                delete();
-                insert(n);
-            }
-        }
     }
 
     public void insert(int n){
@@ -106,11 +96,11 @@ public class MinHeapImpl implements MinHeap {
         arr[child] = tmp;
     }
 
-    private int getTop() {
+    public int getTop() {
         return arr[1];
     }
 
-    private boolean isFull(){
+    protected boolean isFull(){
         return size == capacity;
     }
 
