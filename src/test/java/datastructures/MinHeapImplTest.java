@@ -20,7 +20,6 @@ class MinHeapImplTest {
         for (int i = 0; i < arr.length; i++) {
             heap.insert(arr[i]);
         }
-
         heap.print();
         testDelete();
     }
