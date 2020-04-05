@@ -20,6 +20,4 @@ public class LimitedSizedMinHeapImpl extends MinHeapImpl {
             }
         }
     }
-
-
 }

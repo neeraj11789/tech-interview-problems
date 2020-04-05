@@ -5,4 +5,5 @@ public interface MinHeap {
     int delete();
     void print();
     void insertElement(int n);
+    int size();
 }

@@ -19,6 +19,11 @@ public class MinHeapImpl implements MinHeap {
         insert(n);
     }
 
+    @Override
+    public int size() {
+        return size;
+    }
+
     public void insertCheck(int n){
 
         if(isFull() && n < getTop()){
