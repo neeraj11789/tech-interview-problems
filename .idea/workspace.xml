@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0688f342-8671-45a5-8748-d79465cbfa5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/GroupAnagrams.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/FindAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/FindAnagrams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/GroupAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/GroupAnagrams.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,8 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/GroupAnagrams.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="31" column="40" lean-forward="true" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+            <state relative-caret-position="427">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -409,7 +408,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586895642810</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Group Anagrams - Sorted Method">
+      <created>1586900712765</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1586900712765</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -489,7 +495,8 @@
     <MESSAGE value="Updated ReadMe.md with my notes" />
     <MESSAGE value="Anagram with Sorting" />
     <MESSAGE value="Find All Anagrams - Using Sorting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Find All Anagrams - Using Sorting" />
+    <MESSAGE value="Group Anagrams - Sorted Method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Group Anagrams - Sorted Method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -734,8 +741,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/GroupAnagrams.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="31" column="40" lean-forward="true" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+        <state relative-caret-position="427">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
