@@ -18,6 +18,7 @@ public class MinHeapListImpl implements MinHeap {
     public void insert(int x) {
         list.add(x);
         bubbleUp();
+        List<Integer> ls = new ArrayList<>();
     }
 
     private void bubbleUp() {
