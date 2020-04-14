@@ -2,6 +2,9 @@ package leetcode;
 
 import java.util.Arrays;
 
+/**
+ * https://leetcode.com/problems/valid-anagram/
+ */
 class ValidAnagram {
     public boolean isAnagram(String s, String t) {
         char[] a = s.toCharArray();
