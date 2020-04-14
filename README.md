@@ -59,6 +59,17 @@ public boolean containsDuplicate(int[] nums) {
 for (char c : s.toCharArray()){}
 ```
 
+### Arrays - 
+Sort and equals utility
+```
+public boolean isAnagram(String s, String t) {
+        char[] a = s.toCharArray();
+        char[] b = t.toCharArray();
+        Arrays.sort(a);
+        Arrays.sort(b);
+        return Arrays.equals(a,b);
+    }
+```
 ### Tips
 * for valid parenthesis rather than inserting the orignal parentheses, insert the required parenthesis
 * map.getOrDefault(c, 0) + 1
