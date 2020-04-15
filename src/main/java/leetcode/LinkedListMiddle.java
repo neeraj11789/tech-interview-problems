@@ -1,10 +1,13 @@
 package leetcode;
 
 
+import java.util.Stack;
+
 /**
  * https://leetcode.com/problems/middle-of-the-linked-list/
  */
 public class LinkedListMiddle {
+
     public ListNode middleNode(ListNode head) {
         // edge case - handle 1,2,3 cases
         ListNode slow = head;

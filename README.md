@@ -11,6 +11,14 @@ Data Structures And Problem Solving Deliberate Practice
 ### Stack -
 ```
 Stack<Character> stack = new Stack<Character>();
+
+// Iterating over stack
+Iterator<Character> iterator = stack.iterator();
+while(iterator.hasNext()){
+    Character c = iterator.next();
+    sb.append(c);
+}
+
 ```
 
 ### Queue -
