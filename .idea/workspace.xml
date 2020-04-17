@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0688f342-8671-45a5-8748-d79465cbfa5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/KthLargest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/KthLargestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/KthLargestOptimized.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/TopKFrequentElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/TopKFrequentElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/KthLargestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/KthLargestTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,44 +20,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/javapractice/Movie.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="34" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#279#280#0" expanded="true" />
-                <element signature="e#320#321#0" expanded="true" />
-                <element signature="e#369#370#0" expanded="true" />
-                <element signature="e#445#446#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/javapractice/MovieRatingComparator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/src.zip!/java/lang/Math.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="1181" column="22" selection-start-line="1181" selection-start-column="22" selection-end-line="1181" selection-end-column="22" />
-              <folding>
-                <element signature="e#46227#46228#0" expanded="true" />
-                <element signature="e#46266#46267#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/LastStoneWeight.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -80,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/KthLargest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+            <state relative-caret-position="264">
+              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,11 +50,41 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/KthLargestOptimized.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="91">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="354" selection-start-line="354" selection-end-line="354" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar!/org/junit/jupiter/engine/execution/MethodInvocation.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/KthLargestTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+            <state relative-caret-position="210">
+              <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -130,8 +121,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -181,6 +172,7 @@
         <option value="$PROJECT_DIR$/src/test/java/leetcode/TopKFrequentElementsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/TopKFrequentElements.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/KthLargest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/KthLargestOptimized.java" />
         <option value="$PROJECT_DIR$/src/test/java/leetcode/KthLargestTest.java" />
       </list>
     </option>
@@ -594,21 +586,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MovieTest_yearComparator - 2020.04.17 at 18h 43m 02s.xml">
-      <configuration name="MovieTest.yearComparator" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MovieTest_compareTo - 2020.04.17 at 18h 43m 11s.xml">
-      <configuration name="MovieTest.compareTo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LastStoneWeightTest_lastStoneWeight - 2020.04.17 at 19h 13m 04s.xml">
-      <configuration name="LastStoneWeightTest.lastStoneWeight" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LastStoneWeightTest_lastStoneWeight0 - 2020.04.17 at 19h 20m 51s.xml">
-      <configuration name="LastStoneWeightTest.lastStoneWeight0" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LastStoneWeightTest_lastStoneWeight0 - 2020.04.17 at 19h 21m 54s.xml">
-      <configuration name="LastStoneWeightTest.lastStoneWeight0" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TopKFrequentElementsTest_topKFrequent - 2020.04.17 at 20h 51m 08s.xml">
       <configuration name="TopKFrequentElementsTest.topKFrequent" configurationId="JUnit" />
     </history-entry>
@@ -624,6 +601,21 @@
     <history-entry file="TopKFrequentElementsTest_topKFrequent - 2020.04.17 at 21h 07m 27s.xml">
       <configuration name="TopKFrequentElementsTest.topKFrequent" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="KthLargestTest_add - 2020.04.17 at 22h 55m 35s.xml">
+      <configuration name="KthLargestTest.add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KthLargestTest_add - 2020.04.17 at 22h 57m 04s.xml">
+      <configuration name="KthLargestTest.add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KthLargestTest_add - 2020.04.17 at 22h 58m 18s.xml">
+      <configuration name="KthLargestTest.add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KthLargestTest_add - 2020.04.17 at 22h 59m 46s.xml">
+      <configuration name="KthLargestTest.add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KthLargestTest_add - 2020.04.17 at 23h 03m 25s.xml">
+      <configuration name="KthLargestTest.add" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -638,8 +630,8 @@
       <window_info id="Job Explorer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32876712" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30547947" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39863014" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30547947" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39863014" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -685,7 +677,8 @@
     <MESSAGE value="Comparable vs Comparator Usage Examples" />
     <MESSAGE value="LastStoneWeight Problem" />
     <MESSAGE value="Top K Frequent Elements" />
-    <option name="LAST_COMMIT_MESSAGE" value="Top K Frequent Elements" />
+    <MESSAGE value="Kth Largest in Stream problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kth Largest in Stream problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -728,15 +721,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/KthLargest.java</url>
-          <line>24</line>
+          <line>15</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/KthLargest.java</url>
+          <line>28</line>
           <properties />
-          <option name="timeStamp" value="10" />
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>pq</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>res</expression-string>
         <language-id>JAVA</language-id>
@@ -775,13 +781,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/famng/com/software/SoftwareApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -817,13 +816,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar!/org/junit/jupiter/engine/execution/MethodInvocation.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/datastructures/impl/MinHeapImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
@@ -836,13 +828,6 @@
             <element signature="e#2464#2465#0" expanded="true" />
             <element signature="e#2503#2504#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="354" selection-start-line="354" selection-end-line="354" />
         </state>
       </provider>
     </entry>
@@ -1188,10 +1173,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="354" selection-start-line="354" selection-end-line="354" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar!/org/junit/jupiter/engine/execution/MethodInvocation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/KthLargest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        <state relative-caret-position="264">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/KthLargestOptimized.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1200,8 +1209,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/KthLargestTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+        <state relative-caret-position="210">
+          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
         </state>
       </provider>
     </entry>

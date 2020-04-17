@@ -6,13 +6,15 @@ import org.junit.jupiter.api.Test;
 
 class KthLargestTest {
 
-    KthLargest obj;
+//    KthLargest obj;
+    KthLargestOptimized obj;
 
     @BeforeEach
     void setUp() {
         int k = 3;
         int[] nums = new int[]{4,5,8,2};
-        obj = new KthLargest(k, nums);
+//        obj = new KthLargest(k, nums);
+        obj = new KthLargestOptimized(k, nums);
     }
 
 
