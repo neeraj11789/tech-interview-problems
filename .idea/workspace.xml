@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0688f342-8671-45a5-8748-d79465cbfa5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/MinStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/MovieNameComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/MovieRatingComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javapractice/MovieYearComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/javapractice/MovieTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/datastructures/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/BinaryTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -13,10 +19,79 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/MaxSubArray.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/MinStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="885">
+              <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/datastructures/MinHeapImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/javapractice/Movie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
+                <element signature="e#320#321#0" expanded="true" />
+                <element signature="e#369#370#0" expanded="true" />
+                <element signature="e#445#446#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/javapractice/MovieTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/javapractice/MovieRatingComparator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/javapractice/MovieNameComparator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding>
+                <element signature="e#174#175#0" expanded="true" />
+                <element signature="e#209#210#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/javapractice/MovieYearComparator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
@@ -25,85 +100,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/MoveZeros.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/src.zip!/java/util/Comparator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="-2503">
+              <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/src.zip!/java/util/Stack.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/datastructures/BinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="79" column="26" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/BuySellStocks.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/CountingElements.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="300">
+              <caret line="70" column="36" lean-forward="true" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/LinkedListMiddle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-            </state>
-          </provider>
-          <provider editor-type-id="Gfm" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/BackSpaceStringCompare.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/MinStack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-              <folding>
-                <element signature="e#139#140#0" expanded="true" />
-                <element signature="e#176#177#0" expanded="true" />
-                <element signature="e#571#572#0" expanded="true" />
-                <element signature="e#598#599#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,8 +123,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/src.zip!/java/util/EmptyStackException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="26" />
+            <state relative-caret-position="120">
+              <caret line="31" column="26" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="26" />
               <folding>
                 <element signature="e#0#718#0" expanded="true" />
               </folding>
@@ -148,7 +159,6 @@
         <option value="$PROJECT_DIR$/src/main/java/datastructures/impl/BinaryTreeImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/datastructures/BinaryTreeImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/famng/com/software/SoftwareApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/datastructures/BinaryTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/datastructures/impl/MinHeapListImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/ValidAnagram.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/FindAnagrams.java" />
@@ -165,6 +175,14 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/BackSpaceStringCompare.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/MinStack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/javapractice/ComparableVsComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/javapractice/ComparableVsComparatorService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/javapractice/Movie.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datastructures/BinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/javapractice/MovieRatingComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/javapractice/MovieNameComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/javapractice/MovieYearComparator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/javapractice/MovieTest.java" />
       </list>
     </option>
   </component>
@@ -211,7 +229,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="javapractice" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="famng" type="b2602c69:ProjectViewProjectNode" />
@@ -245,6 +263,23 @@
             <path>
               <item name="famng" type="b2602c69:ProjectViewProjectNode" />
               <item name="famng" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="famng" type="b2602c69:ProjectViewProjectNode" />
+              <item name="famng" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javapractice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="famng" type="b2602c69:ProjectViewProjectNode" />
+              <item name="famng" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -261,6 +296,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="javapractice" />
       <recent name="datastructures.impl" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -282,48 +318,81 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MinHeapListImplTest.insertElement">
-    <configuration name="MinHeapImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MovieTest.compareTo">
+    <configuration name="MovieTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="software" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datastructures.*" />
+          <option name="PATTERN" value="javapractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="datastructures" />
-      <option name="MAIN_CLASS_NAME" value="datastructures.MinHeapImplTest" />
+      <option name="PACKAGE_NAME" value="javapractice" />
+      <option name="MAIN_CLASS_NAME" value="javapractice.MovieTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinHeapListImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MovieTest.compareTo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="software" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datastructures.*" />
+          <option name="PATTERN" value="javapractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="datastructures.impl" />
-      <option name="MAIN_CLASS_NAME" value="datastructures.impl.MinHeapListImplTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="javapractice" />
+      <option name="MAIN_CLASS_NAME" value="javapractice.MovieTest" />
+      <option name="METHOD_NAME" value="compareTo" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinHeapListImplTest.insertElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MovieTest.nameComparator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="software" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datastructures.*" />
+          <option name="PATTERN" value="javapractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="datastructures.impl" />
-      <option name="MAIN_CLASS_NAME" value="datastructures.impl.MinHeapListImplTest" />
-      <option name="METHOD_NAME" value="insertElement" />
+      <option name="PACKAGE_NAME" value="javapractice" />
+      <option name="MAIN_CLASS_NAME" value="javapractice.MovieTest" />
+      <option name="METHOD_NAME" value="nameComparator" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieTest.ratingComparator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="software" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javapractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="javapractice" />
+      <option name="MAIN_CLASS_NAME" value="javapractice.MovieTest" />
+      <option name="METHOD_NAME" value="ratingComparator" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieTest.yearComparator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="software" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javapractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="javapractice" />
+      <option name="MAIN_CLASS_NAME" value="javapractice.MovieTest" />
+      <option name="METHOD_NAME" value="yearComparator" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -331,9 +400,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MinHeapListImplTest.insertElement" />
-        <item itemvalue="JUnit.MinHeapListImplTest" />
-        <item itemvalue="JUnit.MinHeapImplTest" />
+        <item itemvalue="JUnit.MovieTest.compareTo" />
+        <item itemvalue="JUnit.MovieTest.yearComparator" />
+        <item itemvalue="JUnit.MovieTest.ratingComparator" />
+        <item itemvalue="JUnit.MovieTest.nameComparator" />
+        <item itemvalue="JUnit.MovieTest" />
       </list>
     </recent_temporary>
   </component>
@@ -503,22 +574,17 @@
       <option name="project" value="LOCAL" />
       <updated>1586977805739</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Min Stack Problem - Simple solution by using augmented node">
+      <created>1586985068729</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1586985068730</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MinHeapListImplTest - 2020.04.04 at 21h 50m 28s.xml">
-      <configuration name="MinHeapListImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MinHeapListImplTest - 2020.04.04 at 21h 51m 03s.xml">
-      <configuration name="MinHeapListImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MinHeapListImplTest - 2020.04.04 at 21h 53m 12s.xml">
-      <configuration name="MinHeapListImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MinHeapListImplTest - 2020.04.04 at 21h 54m 37s.xml">
-      <configuration name="MinHeapListImplTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MinHeapListImplTest - 2020.04.04 at 21h 56m 30s.xml">
       <configuration name="MinHeapListImplTest" configurationId="JUnit" />
     </history-entry>
@@ -537,33 +603,44 @@
     <history-entry file="MinHeapListImplTest_insertElement - 2020.04.04 at 22h 21m 35s.xml">
       <configuration name="MinHeapListImplTest.insertElement" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MovieTest_compareTo - 2020.04.17 at 18h 16m 10s.xml">
+      <configuration name="MovieTest.compareTo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MovieTest_compareTo - 2020.04.17 at 18h 18m 08s.xml">
+      <configuration name="MovieTest.compareTo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MovieTest - 2020.04.17 at 18h 40m 03s.xml">
+      <configuration name="MovieTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MovieTest_nameComparator - 2020.04.17 at 18h 41m 33s.xml">
+      <configuration name="MovieTest.nameComparator" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project Explorer" />
-      <window_info id="Job Explorer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26979" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Console" />
+      <window_info id="Project Explorer" order="5" />
+      <window_info id="Job Explorer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32876712" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3068493" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30547947" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39941263" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Analysis" order="7" />
       <window_info anchor="bottom" id="DB Execution Console" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32876712" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49919224" weight="0.32876712" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50080776" side_tool="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Messages" order="12" />
-      <window_info anchor="right" id="GfmBrowser" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32876712" />
+      <window_info anchor="bottom" id="Console" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -571,6 +648,7 @@
       <window_info anchor="right" id="Maven" order="4" />
       <window_info anchor="right" id="Json Parser" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="GfmBrowser" order="7" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -594,7 +672,8 @@
     <MESSAGE value="Counting Elements" />
     <MESSAGE value="Middle of the LinkedList" />
     <MESSAGE value="String BackSpace Compare" />
-    <option name="LAST_COMMIT_MESSAGE" value="String BackSpace Compare" />
+    <MESSAGE value="Min Stack Problem - Simple solution by using augmented node" />
+    <option name="LAST_COMMIT_MESSAGE" value="Min Stack Problem - Simple solution by using augmented node" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -642,13 +721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/datastructures/MinHeapImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -713,16 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datastructures/BinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="67" column="24" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -866,63 +928,52 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/MoveZeros.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="79" column="26" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/BuySellStocks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/CountingElements.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="360">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/src.zip!/java/util/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="79" column="26" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/src.zip!/java/util/EmptyStackException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#718#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/LinkedListMiddle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
         </state>
       </provider>
-      <provider editor-type-id="Gfm" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/BackSpaceStringCompare.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        <state relative-caret-position="135">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -931,14 +982,98 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/MinStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        <state relative-caret-position="885">
+          <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/src.zip!/java/util/EmptyStackException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="31" column="26" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="26" />
           <folding>
-            <element signature="e#139#140#0" expanded="true" />
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#0#718#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javapractice/ComparableVsComparatorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/datastructures/MinHeapImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datastructures/BinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="70" column="36" lean-forward="true" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2503">
+          <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javapractice/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javapractice/MovieYearComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javapractice/MovieNameComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javapractice/MovieRatingComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/javapractice/MovieTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
         </state>
       </provider>
     </entry>

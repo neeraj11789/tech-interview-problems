@@ -65,7 +65,7 @@ public class BinaryTree {
 
             Stack<Integer> stack = new Stack<>();
             while (!stack.isEmpty()){
-                stack.peek()
+                stack.peek();
             }
             List<List<Integer>> resu = new ArrayList<>();
             Collections.reverse(resu);
