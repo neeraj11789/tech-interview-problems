@@ -1,7 +1,7 @@
 # DSA Preparation Repository
 Data Structures And Problem Solving Deliberate Practice 
 
-## Interview Learnings / Notes
+## Interview Notes
 
 ### LinkedList -
 * use prev, curr & next pointers
@@ -45,6 +45,25 @@ for(Map.Entry<Integer, Integer> entry : counterMap.entrySet()) {
 ```
 
 ### Heaps
+
+Important Point to remember we use o1-o2 for ascending order and o2-o1 for ascending order
+More Details on how to use Comparator Interface [here](https://github.com/neeraj11789/famng/blob/master/src/test/java/javapractice/MovieTest.java)
+
+```
+// Create the PriorityQ by defining the Order of Elements - Using Lambda
+PriorityQueue<Map.Entry<Integer,Integer>> pq = new PriorityQueue<>(k, (o1,o2)-> o1.getValue() - o2.getValue());
+
+// Create the PriorityQ by defining the Order of Elements - Using Comparator Interface
+PriorityQueue<Map.Entry<Integer,Integer>> pq = new PriorityQueue<>(k, Comparator.comparingInt(Map.Entry::getValue));
+
+```
+For Creating the PriorityQ with LIMITED SIZE. Since Insertion and Heapify Operation comes with Olog(n) complexity, Limiting the size of the Heap would improve the running time of Algorithm 
+```
+pq.offer(iterator.next());
+if (pq.size() > SIZE_LIMIT)
+    pq.poll();
+```
+
 * Check Heap Implementation as Inserting/BubbleUp/Sink are important functions to know
 * https://algorithms.tutorialhorizon.com/heap-sort-java-implementation/
 
