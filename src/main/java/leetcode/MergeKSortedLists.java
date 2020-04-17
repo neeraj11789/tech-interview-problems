@@ -10,7 +10,7 @@ import java.util.PriorityQueue;
  *     ListNode(int x) { val = x; }
  * }
  */
-class MergeKSoretedLists {
+public class MergeKSortedLists {
     public ListNode mergeKLists(ListNode[] lists) {
 
         // initial check
