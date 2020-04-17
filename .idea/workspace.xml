@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0688f342-8671-45a5-8748-d79465cbfa5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/LastStoneWeight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/LastStoneWeightTest.java" afterDir="false" />
+    <list default="true" id="0688f342-8671-45a5-8748-d79465cbfa5f" name="Default Changelist" comment="Top">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/TopKFrequentElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/TopKFrequentElementsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/LastStoneWeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/LastStoneWeight.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -67,14 +68,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/LastStoneWeight.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="219">
+              <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/TopKFrequentElements.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/TopKFrequentElementsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="17" column="54" lean-forward="true" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -82,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/src.zip!/java/util/PriorityQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="586" column="13" selection-start-line="586" selection-start-column="13" selection-end-line="586" selection-end-column="13" />
+            <state relative-caret-position="130">
+              <caret line="162" column="11" selection-start-line="162" selection-start-column="11" selection-end-line="162" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -98,32 +114,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/javapractice/MovieNameComparator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding>
-                <element signature="e#174#175#0" expanded="true" />
-                <element signature="e#209#210#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/javapractice/MovieYearComparator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/src.zip!/java/util/Comparator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2503">
-              <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -181,6 +175,8 @@
         <option value="$PROJECT_DIR$/src/test/java/javapractice/MovieTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/leetcode/LastStoneWeightTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/LastStoneWeight.java" />
+        <option value="$PROJECT_DIR$/src/test/java/leetcode/TopKFrequentElementsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/TopKFrequentElements.java" />
       </list>
     </option>
   </component>
@@ -325,7 +321,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LastStoneWeightTest.lastStoneWeight0">
+  <component name="RunManager" selected="JUnit.TopKFrequentElementsTest.topKFrequent">
     <configuration name="LastStoneWeightTest.lastStoneWeight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="software" />
       <extension name="coverage">
@@ -374,22 +370,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MovieTest.ratingComparator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="software" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javapractice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="javapractice" />
-      <option name="MAIN_CLASS_NAME" value="javapractice.MovieTest" />
-      <option name="METHOD_NAME" value="ratingComparator" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MovieTest.yearComparator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="software" />
       <extension name="coverage">
@@ -406,13 +386,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TopKFrequentElementsTest.topKFrequent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="software" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.TopKFrequentElementsTest" />
+      <option name="METHOD_NAME" value="topKFrequent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TopKFrequentElementsTest.topKFrequent" />
         <item itemvalue="JUnit.LastStoneWeightTest.lastStoneWeight0" />
         <item itemvalue="JUnit.LastStoneWeightTest.lastStoneWeight" />
         <item itemvalue="JUnit.MovieTest.compareTo" />
         <item itemvalue="JUnit.MovieTest.yearComparator" />
-        <item itemvalue="JUnit.MovieTest.ratingComparator" />
       </list>
     </recent_temporary>
   </component>
@@ -593,21 +589,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MovieTest_compareTo - 2020.04.17 at 18h 18m 08s.xml">
-      <configuration name="MovieTest.compareTo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MovieTest - 2020.04.17 at 18h 40m 03s.xml">
-      <configuration name="MovieTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MovieTest_nameComparator - 2020.04.17 at 18h 41m 33s.xml">
-      <configuration name="MovieTest.nameComparator" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MovieTest_nameComparator - 2020.04.17 at 18h 42m 22s.xml">
-      <configuration name="MovieTest.nameComparator" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MovieTest_ratingComparator - 2020.04.17 at 18h 42m 33s.xml">
-      <configuration name="MovieTest.ratingComparator" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MovieTest_yearComparator - 2020.04.17 at 18h 43m 02s.xml">
       <configuration name="MovieTest.yearComparator" configurationId="JUnit" />
     </history-entry>
@@ -623,6 +604,21 @@
     <history-entry file="LastStoneWeightTest_lastStoneWeight0 - 2020.04.17 at 19h 21m 54s.xml">
       <configuration name="LastStoneWeightTest.lastStoneWeight0" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TopKFrequentElementsTest_topKFrequent - 2020.04.17 at 20h 51m 08s.xml">
+      <configuration name="TopKFrequentElementsTest.topKFrequent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TopKFrequentElementsTest_topKFrequent - 2020.04.17 at 20h 59m 49s.xml">
+      <configuration name="TopKFrequentElementsTest.topKFrequent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TopKFrequentElementsTest_topKFrequent - 2020.04.17 at 21h 01m 40s.xml">
+      <configuration name="TopKFrequentElementsTest.topKFrequent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TopKFrequentElementsTest_topKFrequent - 2020.04.17 at 21h 05m 58s.xml">
+      <configuration name="TopKFrequentElementsTest.topKFrequent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TopKFrequentElementsTest_topKFrequent - 2020.04.17 at 21h 07m 27s.xml">
+      <configuration name="TopKFrequentElementsTest.topKFrequent" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -637,8 +633,8 @@
       <window_info id="Job Explorer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32876712" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30547947" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39863014" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30547947" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39863014" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -682,7 +678,8 @@
     <MESSAGE value="String BackSpace Compare" />
     <MESSAGE value="Min Stack Problem - Simple solution by using augmented node" />
     <MESSAGE value="Comparable vs Comparator Usage Examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comparable vs Comparator Usage Examples" />
+    <MESSAGE value="LastStoneWeight Problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="LastStoneWeight Problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -701,7 +698,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/LastStoneWeight.java</url>
-          <line>10</line>
+          <line>12</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
@@ -711,11 +708,48 @@
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/TopKFrequentElements.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/TopKFrequentElements.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>res</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>pq.toArray()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>pq.size()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>pq.size</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>map</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>pq.peek()</expression-string>
         <language-id>JAVA</language-id>
@@ -1114,13 +1148,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/src.zip!/java/util/PriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="586" column="13" selection-start-line="586" selection-start-column="13" selection-end-line="586" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/LastStoneWeightTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1130,11 +1157,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/LastStoneWeight.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="219">
+          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/src.zip!/java/util/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="162" column="11" selection-start-line="162" selection-start-column="11" selection-end-line="162" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/TopKFrequentElementsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="17" column="54" lean-forward="true" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/TopKFrequentElements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
         </state>
       </provider>
     </entry>

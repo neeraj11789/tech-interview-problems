@@ -1,8 +1,10 @@
 package leetcode;
 
-import java.util.Arrays;
 import java.util.PriorityQueue;
 
+/**
+ * https://leetcode.com/problems/last-stone-weight/
+ */
 public class LastStoneWeight {
 
     public int lastStoneWeight(int[] stones) {
