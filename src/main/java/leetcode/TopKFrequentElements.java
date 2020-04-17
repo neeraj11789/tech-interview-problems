@@ -15,7 +15,8 @@ public class TopKFrequentElements {
             map.put(nums[i], map.getOrDefault(nums[i],0) + 1 );
         }
 
-        PriorityQueue<Map.Entry<Integer,Integer>> pq = new PriorityQueue<>(k, (o1,o2)-> o1.getValue() - o2.getValue());
+//      PriorityQueue<Map.Entry<Integer,Integer>> pq = new PriorityQueue<>(k, (o1,o2)-> o1.getValue() - o2.getValue());
+        PriorityQueue<Map.Entry<Integer,Integer>> pq = new PriorityQueue<>(k, Comparator.comparingInt(Map.Entry::getValue));
 
         // Maintain the Size of the Heap fixed for K elements
         Iterator<Map.Entry<Integer,Integer>> iterator = map.entrySet().iterator();
