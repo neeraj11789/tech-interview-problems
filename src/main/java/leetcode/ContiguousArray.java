@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- *
+ * @HACK : Commit Message to be used as tags
  * #hard #revise #goodsolution
  *
  * @NOTE: Read the solution-2 to understand the baics on how it is working
