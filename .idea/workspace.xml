@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0688f342-8671-45a5-8748-d79465cbfa5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/ContiguousArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/ContiguousArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/ContiguousArray.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -75,8 +75,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/ContiguousArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+            <state relative-caret-position="105">
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -653,7 +653,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Min Heap List Implementation" />
     <MESSAGE value="Heap Implementations update" />
     <MESSAGE value="Updated ReadMe.md with my notes" />
     <MESSAGE value="Anagram with Sorting" />
@@ -678,7 +677,8 @@
     <MESSAGE value="Merge K Sorted Lists" />
     <MESSAGE value="Rename file" />
     <MESSAGE value="Diameter of a Binary Tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="Diameter of a Binary Tree" />
+    <MESSAGE value="ContiguousArray Problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="ContiguousArray Problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1195,8 +1195,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/ContiguousArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+        <state relative-caret-position="105">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

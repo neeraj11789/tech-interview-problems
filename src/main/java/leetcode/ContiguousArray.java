@@ -4,6 +4,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ *
+ * #hard #revise #goodsolution
+ *
  * @NOTE: Read the solution-2 to understand the baics on how it is working
  * https://leetcode.com/problems/contiguous-array/submissions/
  */
