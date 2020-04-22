@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0688f342-8671-45a5-8748-d79465cbfa5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/AverageOfLevelOrderTraversal.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/ConstructBSTfromPreOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/MaxContiguousSubArray.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/SearchInRotateSortedArray.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/ValidParenthesesString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -21,15 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/SearchInRotateSortedArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/ValidParenthesesString.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -86,14 +77,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/AverageOfLevelOrderTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="47" column="17" lean-forward="true" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/MaxContiguousSubArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -141,7 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/datastructures/impl/BinaryTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/datastructures/BTNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/datastructures/impl/BinaryTreeImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/datastructures/BinaryTreeImpl.java" />
@@ -192,6 +191,7 @@
         <option value="$PROJECT_DIR$/src/main/java/leetcode/BinaryTreeInorderTraversal.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/BinaryTreePreOrderTraversal.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/AverageOfLevelOrderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/MaxContiguousSubArray.java" />
       </list>
     </option>
   </component>
@@ -671,7 +671,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Happy Number" />
     <MESSAGE value="Maximum subarray" />
     <MESSAGE value="Move Zeros" />
     <MESSAGE value="Buy Sell Stocks" />
@@ -696,7 +695,8 @@
     <MESSAGE value="N Ary Tree Preorder - Non Iterative solution" />
     <MESSAGE value="Binary Tree Inorder Traversal" />
     <MESSAGE value="Binary Tree Pre Order Traversal - Non Recursive" />
-    <option name="LAST_COMMIT_MESSAGE" value="Binary Tree Pre Order Traversal - Non Recursive" />
+    <MESSAGE value="Level Order Traversal - Average of the nodes at a level" />
+    <option name="LAST_COMMIT_MESSAGE" value="Level Order Traversal - Average of the nodes at a level" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -799,13 +799,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/MinStepsAnagramComparision.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/SingleNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
@@ -1189,11 +1182,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/AverageOfLevelOrderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="47" column="17" lean-forward="true" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/MaxContiguousSubArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
