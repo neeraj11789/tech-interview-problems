@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0688f342-8671-45a5-8748-d79465cbfa5f" name="Default Changelist" comment="Max Contiguous Subarray">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/ConstructBSTfromPreOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/HeightOfTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/MinMovedSrcToDesGeneric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/SearchInRotateSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/ValidParenthesesString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/GenericParenthesisValidatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/MinMovedSrcToDesGenericTest.java" afterDir="false" />
+    <list default="true" id="0688f342-8671-45a5-8748-d79465cbfa5f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/AccountStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/CustomerInfoPortal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/EmployeeAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/ParkingDisplayBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/ParkingFloor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/ParkingSpot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/ParkingSpotType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/ParkingTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/ParkingTicketStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/VehicleType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,39 +33,127 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/HeightOfTree.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/Vehicle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="300">
+              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+              <folding>
+                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#191#192#0" expanded="true" />
+                <element signature="e#234#235#0" expanded="true" />
+                <element signature="e#255#256#0" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
+                <element signature="e#399#400#0" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/MinMovedSrcToDesGeneric.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/ParkingTicket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="157" lean-forward="true" selection-start-line="157" selection-end-line="157" />
+            <state relative-caret-position="210">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/ParkingSpot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
               <folding>
-                <element signature="e#231#232#0" expanded="true" />
-                <element signature="e#249#250#0" expanded="true" />
-                <element signature="e#2431#2432#0" expanded="true" />
-                <element signature="e#2458#2459#0" expanded="true" />
+                <element signature="e#190#191#0" expanded="true" />
+                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#187#188#0" expanded="true" />
+                <element signature="e#215#216#0" expanded="true" />
+                <element signature="e#236#237#0" expanded="true" />
+                <element signature="e#262#263#0" expanded="true" />
+                <element signature="e#397#398#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
+                <element signature="e#544#545#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/EmployeeAccount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#170#171#0" expanded="true" />
+                <element signature="e#198#199#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="73" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/ParkingFloor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+              <folding>
+                <element signature="e#1403#1404#0" expanded="true" />
+                <element signature="e#1430#1431#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/MinMovedSrcToDesGenericTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/ParkingDisplayBoard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="280">
+              <caret line="33" column="117" selection-start-line="33" selection-start-column="117" selection-end-line="33" selection-end-column="117" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
+                <element signature="e#237#238#0" expanded="true" />
                 <element signature="e#224#225#0" expanded="true" />
-                <element signature="e#280#281#0" expanded="true" />
+                <element signature="e#271#272#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/ParkingSpotType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -67,8 +163,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -78,23 +175,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/MinStepsAnagramComparision.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/MinStepsAnagramComparision.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/SingleNumber.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/HappyNumber.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/MaxSubArray.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/MoveZeros.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/BuySellStocks.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/CountingElements.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/LinkedListMiddle.java" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/BackSpaceStringCompare.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/MinStack.java" />
-        <option value="$PROJECT_DIR$/src/main/java/javapractice/ComparableVsComparator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/javapractice/ComparableVsComparatorService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/javapractice/Movie.java" />
-        <option value="$PROJECT_DIR$/src/main/java/datastructures/BinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/javapractice/MovieRatingComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/javapractice/MovieNameComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/javapractice/MovieYearComparator.java" />
         <option value="$PROJECT_DIR$/src/test/java/javapractice/MovieTest.java" />
@@ -127,8 +207,25 @@
         <option value="$PROJECT_DIR$/src/main/java/leetcode/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/HeightOfTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/KnightMinMoves.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/MinMovedSrcToDesGeneric.java" />
         <option value="$PROJECT_DIR$/src/test/java/leetcode/MinMovedSrcToDesGenericTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/MinMovedSrcToDesGeneric.java" />
+        <option value="$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/ParkingSpotType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/VehicleType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/ParkingTicketStatus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/AccountStatus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/Model.java" />
+        <option value="$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/Address.java" />
+        <option value="$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/Customer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/CustomerInforPortal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/ParkingTicket.java" />
+        <option value="$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/CustomerInfoPortal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/Vehicle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/ParkingSpot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/ParkingFloor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/EmployeeAccount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/ParkingDisplayBoard.java" />
       </list>
     </option>
   </component>
@@ -172,7 +269,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="systemdesign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="famng" type="b2602c69:ProjectViewProjectNode" />
+              <item name="famng" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="systemdesign" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="famng" type="b2602c69:ProjectViewProjectNode" />
@@ -251,6 +357,9 @@
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="systemdesign.parkinglot.model" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -564,6 +673,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2819063" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -598,8 +708,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Buy Sell Stocks" />
-    <MESSAGE value="Counting Elements" />
     <MESSAGE value="Middle of the LinkedList" />
     <MESSAGE value="String BackSpace Compare" />
     <MESSAGE value="Min Stack Problem - Simple solution by using augmented node" />
@@ -623,7 +731,9 @@
     <MESSAGE value="Level Order Traversal - Average of the nodes at a level" />
     <MESSAGE value="Max Contiguous Subarray" />
     <MESSAGE value="Generic Parenthesis Generator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generic Parenthesis Generator" />
+    <MESSAGE value="Graph Problem and Height of the tree" />
+    <MESSAGE value="LeetCode Challenge Questions #todo #revision" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode Challenge Questions #todo #revision" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -732,136 +842,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/LinkedListMiddle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/BackSpaceStringCompare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/MinStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/src.zip!/java/util/EmptyStackException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="31" column="26" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#718#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/javapractice/ComparableVsComparatorService.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/datastructures/MinHeapImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datastructures/BinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="70" column="36" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/src.zip!/java/util/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2503">
-          <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/javapractice/MovieNameComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#174#175#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/javapractice/MovieTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/javapractice/MovieYearComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/javapractice/Movie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/javapractice/MovieRatingComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="1181" column="22" selection-start-line="1181" selection-start-column="22" selection-end-line="1181" selection-end-column="22" />
-          <folding>
-            <element signature="e#46227#46228#0" expanded="true" />
-            <element signature="e#46266#46267#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/LastStoneWeightTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/LastStoneWeight.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
@@ -1113,27 +1093,179 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/MinMovedSrcToDesGenericTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/MinMovedSrcToDesGeneric.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="157" lean-forward="true" selection-start-line="157" selection-end-line="157" />
+        <state relative-caret-position="416">
+          <caret line="40" column="44" lean-forward="true" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
           <folding>
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
             <element signature="e#2431#2432#0" expanded="true" />
             <element signature="e#2458#2459#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/MinMovedSrcToDesGenericTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/ParkingTicketStatus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="75">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/AccountStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/VehicleType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/CustomerInfoPortal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding>
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/Vehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding>
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/ParkingTicket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/ParkingSpot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/ParkingSpotType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/ParkingFloor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+          <folding>
+            <element signature="e#1403#1404#0" expanded="true" />
+            <element signature="e#1430#1431#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/EmployeeAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="73" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/ParkingDisplayBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="33" column="117" selection-start-line="33" selection-start-column="117" selection-end-line="33" selection-end-column="117" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
             <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
           </folding>
         </state>
       </provider>
