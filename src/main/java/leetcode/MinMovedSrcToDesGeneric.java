@@ -2,6 +2,10 @@ package leetcode;
 
 import java.util.*;
 
+/**
+ * @Note : A simple problem on BFS
+ * https://www.techiedelight.com/chess-knight-problem-find-shortest-path-source-destination/
+ */
 public class MinMovedSrcToDesGeneric {
 
 	private static final int MAX_N = 8;
