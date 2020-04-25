@@ -1,30 +1,48 @@
 package systemdesign.parkinglot.model;
 
+/** The type Vehicle. */
 public abstract class Vehicle {
 
-	String liscenseNumber;
+  /** The Liscense number. */
+  String liscenseNumber;
 
-	VehicleType type;
+  /** The Type. */
+  VehicleType type;
 
-	ParkingTicket ticket;
+  /** The Ticket. */
+  ParkingTicket ticket;
 
-	public Vehicle(VehicleType type) {
+  /**
+   * Instantiates a new Vehicle.
+   *
+   * @param type the type
+   */
+  public Vehicle(VehicleType type) {
 		this.type = type;
 	}
 
-	void assignTicket(ParkingTicket ticket){
+  /**
+   * Assign ticket.
+   *
+   * @param ticket the ticket
+   */
+  void assignTicket(ParkingTicket ticket) {
 		this.ticket = ticket;
 	}
 }
 
+/** The type Car. */
 class Car extends Vehicle {
-	public Car() {
+  /** Instantiates a new Car. */
+  public Car() {
 		super(VehicleType.CAR);
 	}
 }
 
+/** The type Motorcycle. */
 class Motorcycle extends Vehicle {
-	public Motorcycle() {
+  /** Instantiates a new Motorcycle. */
+  public Motorcycle() {
 		super(VehicleType.CAR);
 	}
 }

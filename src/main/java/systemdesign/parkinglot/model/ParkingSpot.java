@@ -1,35 +1,55 @@
 package systemdesign.parkinglot.model;
 
+/** The type Parking spot. */
 public abstract class ParkingSpot {
-	String id;
+  /** The Id. */
+  String id;
 
-	boolean free;
+  /** The Free. */
+  boolean free;
 
-	ParkingSpotType type;
+  /** The Type. */
+  ParkingSpotType type;
 
-	Vehicle vehicle;
+  /** The Vehicle. */
+  Vehicle vehicle;
 
-	public ParkingSpot(ParkingSpotType type) {
+  /**
+   * Instantiates a new Parking spot.
+   *
+   * @param type the type
+   */
+  public ParkingSpot(ParkingSpotType type) {
 		this.type = type;
 	}
 
-	void allotVehicle(Vehicle vehicle){
+  /**
+   * Allot vehicle.
+   *
+   * @param vehicle the vehicle
+   */
+  void allotVehicle(Vehicle vehicle) {
 		this.vehicle = vehicle;
 	}
 
-	void removeVehicle(){
+  /** Remove vehicle. */
+  void removeVehicle() {
 		this.vehicle = null;
 	}
 }
 
+/** The type Compact spot. */
 class CompactSpot extends ParkingSpot {
-	public CompactSpot() {
+  /** Instantiates a new Compact spot. */
+  public CompactSpot() {
 		super(ParkingSpotType.COMPACT);
 	}
 }
 
+/** The type Motorbike spot. */
 class MotorbikeSpot extends ParkingSpot {
-	public MotorbikeSpot() {
+  /** Instantiates a new Motorbike spot. */
+  public MotorbikeSpot() {
 		super(ParkingSpotType.MOTORBIKE);
 	}
 }

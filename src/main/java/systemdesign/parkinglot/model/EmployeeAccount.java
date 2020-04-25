@@ -1,26 +1,39 @@
 package systemdesign.parkinglot.model;
 
+/** The type Employee account. */
 public abstract class EmployeeAccount {
 
-	String username;
+  /** The Username. */
+  String username;
 
-	String password;
+  /** The Password. */
+  String password;
 
-	AccountStatus status;
+  /** The Status. */
+  AccountStatus status;
 
-	Person person;
+  /** The Person. */
+  Person person;
 
-	boolean isActive(){
+  /**
+   * Is active boolean.
+   *
+   * @return the boolean
+   */
+  boolean isActive() {
 		return status.equals(AccountStatus.ACTIVE);
 	}
 }
 
-class ParkingAttendant extends EmployeeAccount{
-	void processTicket(ParkingTicket ticket){
-
-	}
+/** The type Parking attendant. */
+class ParkingAttendant extends EmployeeAccount {
+  /**
+   * Process ticket.
+   *
+   * @param ticket the ticket
+   */
+  void processTicket(ParkingTicket ticket) {}
 }
 
-class Admin extends ParkingAttendant{
-
-}
+/** The type Admin. */
+class Admin extends ParkingAttendant {}

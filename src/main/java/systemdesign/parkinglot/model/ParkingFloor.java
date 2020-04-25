@@ -2,24 +2,30 @@ package systemdesign.parkinglot.model;
 
 import java.util.Map;
 
+/** The type Parking floor. */
 public class ParkingFloor {
-	String id;
+  /** The Id. */
+  String id;
 
-	int number;
+  /** The Number. */
+  int number;
 
-	ParkingDisplayBoard displayBoard;
+  /** The Display board. */
+  ParkingDisplayBoard displayBoard;
 
-	/**
-	 * Map with each type for SpotType and Max Count
-	 */
-	Map<ParkingSpotType, Integer> parkingSpotTypeWithMaxLimit;
+  /** Map with each type for SpotType and Max Count */
+  Map<ParkingSpotType, Integer> parkingSpotTypeWithMaxLimit;
 
-	/**
-	 * Counter with each type of SpotType;
-	 */
-	Map<ParkingSpotType, Integer> parkingSpotWithOccupancyCounter;
+  /** Counter with each type of SpotType; */
+  Map<ParkingSpotType, Integer> parkingSpotWithOccupancyCounter;
 
-	public ParkingFloor(int number, Map<ParkingSpotType, Integer> parkingSpotTypeWithCounter) {
+  /**
+   * Instantiates a new Parking floor.
+   *
+   * @param number the number
+   * @param parkingSpotTypeWithCounter the parking spot type with counter
+   */
+  public ParkingFloor(int number, Map<ParkingSpotType, Integer> parkingSpotTypeWithCounter) {
 		this.number = number;
 		this.parkingSpotTypeWithMaxLimit = parkingSpotTypeWithCounter;
 
@@ -30,11 +36,13 @@ public class ParkingFloor {
 		this.displayBoard = new ParkingDisplayBoard("Welcome to the Parking Lot: Floor number - " + number);
 	}
 
-	/**
-	 *
-	 * @param spot
-	 */
-	void assignVehicleToSpot(ParkingSpot spot, Vehicle vehicle){
+  /**
+   * Assign vehicle to spot.
+   *
+   * @param spot the spot
+   * @param vehicle the vehicle
+   */
+  void assignVehicleToSpot(ParkingSpot spot, Vehicle vehicle) {
 		if(parkingSpotWithOccupancyCounter.get(spot.type) > parkingSpotTypeWithMaxLimit.get(spot.type)){
             System.out.println(spot.type + " is FULL");
 			displayBoard.updateDisplay(this);
@@ -46,8 +54,12 @@ public class ParkingFloor {
 		}
 	}
 
-
-	void removeVehicleFromSpot(ParkingSpot spot){
+  /**
+   * Remove vehicle from spot.
+   *
+   * @param spot the spot
+   */
+  void removeVehicleFromSpot(ParkingSpot spot) {
 		spot.removeVehicle();
 	}
 }

@@ -1,7 +1,19 @@
 package systemdesign.parkinglot.model;
 
+/**
+ * The enum Account status.
+ */
 public enum AccountStatus {
-	ACTIVE,
-	INACTIVE,
-	BLOCKED
+	/**
+	 *Active account status.
+	 */
+ACTIVE,
+	/**
+	 *Inactive account status.
+	 */
+INACTIVE,
+	/**
+	 *Blocked account status.
+	 */
+BLOCKED
 }

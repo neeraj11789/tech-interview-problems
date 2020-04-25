@@ -1,9 +1,19 @@
 package systemdesign.parkinglot.model;
 
+/** The type Person. */
 public class Person {
-	String id;
-	String name;
-	Address address;
-	String email;
-	Long phone;
+  /** The Id. */
+  String id;
+
+  /** The Name. */
+  String name;
+
+  /** The Address. */
+  Address address;
+
+  /** The Email. */
+  String email;
+
+  /** The Phone. */
+  Long phone;
 }

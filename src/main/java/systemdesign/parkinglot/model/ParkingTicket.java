@@ -2,15 +2,21 @@ package systemdesign.parkinglot.model;
 
 import java.time.LocalDateTime;
 
+/** The type Parking ticket. */
 public class ParkingTicket {
 
-	String id;
+  /** The Id. */
+  String id;
 
-	LocalDateTime entranceTime;
+  /** The Entrance time. */
+  LocalDateTime entranceTime;
 
-	LocalDateTime exitTime;
+  /** The Exit time. */
+  LocalDateTime exitTime;
 
-	Double charges;
+  /** The Charges. */
+  Double charges;
 
-	ParkingTicketStatus status;
+  /** The Status. */
+  ParkingTicketStatus status;
 }

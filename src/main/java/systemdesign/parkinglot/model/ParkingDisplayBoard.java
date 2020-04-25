@@ -3,28 +3,35 @@ package systemdesign.parkinglot.model;
 import java.util.Map;
 import java.util.UUID;
 
+/** The type Parking display board. */
 public class ParkingDisplayBoard {
 
-	String id = UUID.randomUUID().toString();
+  /** The Id. */
+  String id = UUID.randomUUID().toString();
 
-	String message;
+  /** The Message. */
+  String message;
 
-	public ParkingDisplayBoard() {
+  /** Instantiates a new Parking display board. */
+  public ParkingDisplayBoard() {
 		this.message = "Welcome to the Parking Lot";
 	}
 
-	/**
-	 *
-	 * @param message
-	 */
-	public ParkingDisplayBoard(String message) {
+  /**
+   * Instantiates a new Parking display board.
+   *
+   * @param message the message
+   */
+  public ParkingDisplayBoard(String message) {
 		this.message = message;
 	}
 
-	/**
-	 * Udpate Display
-	 */
-	public void updateDisplay(ParkingFloor floor){
+  /**
+   * Udpate Display
+   *
+   * @param floor the floor
+   */
+  public void updateDisplay(ParkingFloor floor) {
 		StringBuilder sb = new StringBuilder();
 		sb.append(message);
 		sb.append("Available Parking Slots for each category displayed below");

@@ -1,5 +1,8 @@
 package systemdesign.parkinglot.model;
 
+/**
+ * The type Customer.
+ */
 public class Customer extends Person {
 
 	private CustomerInfoPortal customerInforPortal;

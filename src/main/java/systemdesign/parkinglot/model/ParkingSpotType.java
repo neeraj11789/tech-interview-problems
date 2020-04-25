@@ -1,9 +1,15 @@
 package systemdesign.parkinglot.model;
 
+/** The enum Parking spot type. */
 public enum ParkingSpotType {
-	HANDICAPPED,
-	COMPACT,
-	LARGE,
-	ELECTRIC,
-	MOTORBIKE
+  /** Handicapped parking spot type. */
+  HANDICAPPED,
+  /** Compact parking spot type. */
+  COMPACT,
+  /** Large parking spot type. */
+  LARGE,
+  /** Electric parking spot type. */
+  ELECTRIC,
+  /** Motorbike parking spot type. */
+  MOTORBIKE
 }

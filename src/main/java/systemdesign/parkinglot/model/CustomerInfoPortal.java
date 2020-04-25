@@ -1,12 +1,26 @@
 package systemdesign.parkinglot.model;
 
+/**
+ * The type Customer info portal.
+ */
 public class CustomerInfoPortal {
 
-	void processTicket(ParkingTicket ticket){
+	/**
+	 * Process ticket.
+	 *
+	 * @param ticket the ticket
+	 */
+void processTicket(ParkingTicket ticket){
 
 	}
 
-	Double checkAmount(Vehicle vehicle){
+	/**
+	 * Check amount double.
+	 *
+	 * @param vehicle the vehicle
+	 * @return the double
+	 */
+Double checkAmount(Vehicle vehicle){
 		return 0D;
 	}
 
