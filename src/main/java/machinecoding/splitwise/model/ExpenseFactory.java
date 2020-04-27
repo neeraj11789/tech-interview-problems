@@ -14,9 +14,8 @@ public class ExpenseFactory {
    * @param type the type
    */
 public ExpenseFactory(ExpenseType type) {
-		// @TODO
-		if (type.equals(ExpenseType.EQUAL))
-			expense = new EqualExpense();
+
+
 	}
 
   /**
