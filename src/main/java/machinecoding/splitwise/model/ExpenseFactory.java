@@ -13,7 +13,7 @@ public class ExpenseFactory {
    *
    * @param type the type
    */
-  public ExpenseFactory(ExpenseType type) {
+public ExpenseFactory(ExpenseType type) {
 		// @TODO
 		if (type.equals(ExpenseType.EQUAL))
 			expense = new EqualExpense();
@@ -24,7 +24,7 @@ public class ExpenseFactory {
    *
    * @return the expense
    */
-  public Expense newExpense() {
+public Expense newExpense() {
 		// @TODO: Get the params and set it for the object
 		return expense;
 	}

@@ -6,7 +6,7 @@ import java.util.Optional;
 /**
  * The interface Dao.
  *
- * @param <T>  the type parameter
+ * @param <T>   the type parameter
  */
 public interface Dao<T> {
 

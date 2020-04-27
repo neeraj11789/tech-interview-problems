@@ -15,26 +15,26 @@ public interface PassBookService {
    * @param user the user
    * @return the user expenses
    */
-  List<PassBookEntry> getUserExpenses(User user);
+List<PassBookEntry> getUserExpenses(User user);
 
   /**
    * Gets all expense.
    *
    * @return the all expense
    */
-  List<PassBookEntry> getAllExpense();
+List<PassBookEntry> getAllExpense();
 
   /**
    * Add entry.
    *
    * @param passBookEntry the pass book entry
    */
-  void addEntry(PassBookEntry passBookEntry);
+void addEntry(PassBookEntry passBookEntry);
 
   /**
    * Add expense.
    *
    * @param expense the expense
    */
-  void addExpense(Expense expense);
+void addExpense(Expense expense);
 }

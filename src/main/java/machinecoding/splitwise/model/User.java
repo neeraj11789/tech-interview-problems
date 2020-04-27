@@ -4,9 +4,7 @@ import lombok.Data;
 
 import java.util.UUID;
 
-/**
- * The type User.
- */
+/** The type User. */
 @Data
 public class User {
 

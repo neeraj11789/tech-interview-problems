@@ -13,14 +13,14 @@ public interface ExpenseService {
    *
    * @param expense the expense
    */
-  void addExpense(Expense expense);
+void addExpense(Expense expense);
 
   /**
    * Remove expense.
    *
    * @param expense the expense
    */
-  void removeExpense(Expense expense);
+void removeExpense(Expense expense);
 
   /**
    * Expense by user list.
@@ -28,5 +28,5 @@ public interface ExpenseService {
    * @param user the user
    * @return the list
    */
-  List<Expense> expenseByUser(User user);
+List<Expense> expenseByUser(User user);
 }
