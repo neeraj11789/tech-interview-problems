@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0688f342-8671-45a5-8748-d79465cbfa5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/LRUCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/LRUCacheTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datastructures/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/datastructures/GraphTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,24 +19,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/LRUCache.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+            <state relative-caret-position="375">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1574#1575#0" expanded="true" />
                 <element signature="e#1610#1611#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/src.zip!/java/util/Map.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/datastructures/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="271" column="6" selection-start-line="271" selection-start-column="6" selection-end-line="271" selection-end-column="6" />
+            <state relative-caret-position="221">
+              <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#510#511#0" expanded="true" />
+                <element signature="e#530#531#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/datastructures/GraphTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="354" selection-start-line="354" selection-end-line="354" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar!/org/junit/jupiter/engine/execution/MethodInvocation.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
         </entry>
@@ -44,7 +77,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/LRUCacheTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1005">
+            <state relative-caret-position="675">
               <caret line="70" selection-start-line="70" selection-end-line="70" />
             </state>
           </provider>
@@ -73,9 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/GenericParenthesisValidator.java" />
-        <option value="$USER_HOME$/Documents/bookmarks_interview.html" />
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/HeightOfTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/KnightMinMoves.java" />
         <option value="$PROJECT_DIR$/src/test/java/leetcode/MinMovedSrcToDesGenericTest.java" />
@@ -124,6 +154,9 @@
         <option value="$PROJECT_DIR$/src/main/java/leetcode/MyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/test/java/leetcode/LRUCacheTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/LRUCache.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datastructures/BreadthFirstSearch.java" />
+        <option value="$PROJECT_DIR$/src/test/java/datastructures/GraphTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datastructures/Graph.java" />
       </list>
     </option>
   </component>
@@ -134,7 +167,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="773" />
@@ -144,7 +177,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -177,7 +209,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="javapractice" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="famng" type="b2602c69:ProjectViewProjectNode" />
@@ -242,6 +274,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -254,6 +287,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="datastructures" />
       <recent name="leetcode" />
       <recent name="javapractice" />
       <recent name="datastructures.impl" />
@@ -283,50 +317,49 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LRUCacheTest.test4">
-    <configuration name="LRUCacheTest.createNew" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GraphTest.BFS">
+    <configuration name="GraphTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="software" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="datastructures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcode" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.LRUCacheTest" />
-      <option name="METHOD_NAME" value="createNew" />
+      <option name="PACKAGE_NAME" value="datastructures" />
+      <option name="MAIN_CLASS_NAME" value="datastructures.GraphTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GraphTest.BFS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="software" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="datastructures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="datastructures" />
+      <option name="MAIN_CLASS_NAME" value="datastructures.GraphTest" />
+      <option name="METHOD_NAME" value="BFS" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LRUCacheTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GraphTest.DFS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="software" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="datastructures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcode" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.LRUCacheTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LRUCacheTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="software" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.LRUCacheTest" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="PACKAGE_NAME" value="datastructures" />
+      <option name="MAIN_CLASS_NAME" value="datastructures.GraphTest" />
+      <option name="METHOD_NAME" value="DFS" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -366,11 +399,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GraphTest.BFS" />
+        <item itemvalue="JUnit.GraphTest.DFS" />
+        <item itemvalue="JUnit.GraphTest" />
         <item itemvalue="JUnit.LRUCacheTest.test4" />
         <item itemvalue="JUnit.LRUCacheTest.test3" />
-        <item itemvalue="JUnit.LRUCacheTest.test2" />
-        <item itemvalue="JUnit.LRUCacheTest.test1" />
-        <item itemvalue="JUnit.LRUCacheTest.createNew" />
       </list>
     </recent_temporary>
   </component>
@@ -551,42 +584,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LRUCacheTest_test2 - 2020.04.28 at 03h 46m 02s.xml">
-      <configuration name="LRUCacheTest.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LRUCacheTest_test2 - 2020.04.28 at 03h 49m 34s.xml">
-      <configuration name="LRUCacheTest.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LRUCacheTest_test2 - 2020.04.28 at 03h 50m 04s.xml">
-      <configuration name="LRUCacheTest.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LRUCacheTest_test3 - 2020.04.28 at 03h 53m 58s.xml">
-      <configuration name="LRUCacheTest.test3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LRUCacheTest_test3 - 2020.04.28 at 03h 56m 42s.xml">
-      <configuration name="LRUCacheTest.test3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LRUCacheTest_test3 - 2020.04.28 at 03h 58m 59s.xml">
-      <configuration name="LRUCacheTest.test3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LRUCacheTest_test4 - 2020.04.28 at 04h 03m 55s.xml">
-      <configuration name="LRUCacheTest.test4" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LRUCacheTest_test4 - 2020.04.28 at 04h 11m 40s.xml">
-      <configuration name="LRUCacheTest.test4" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LRUCacheTest_test4 - 2020.04.28 at 04h 15m 27s.xml">
       <configuration name="LRUCacheTest.test4" configurationId="JUnit" />
     </history-entry>
     <history-entry file="LRUCacheTest_test4 - 2020.04.28 at 04h 17m 22s.xml">
       <configuration name="LRUCacheTest.test4" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GraphTest_BFS - 2020.04.28 at 23h 52m 51s.xml">
+      <configuration name="GraphTest.BFS" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraphTest - 2020.04.28 at 23h 52m 58s.xml">
+      <configuration name="GraphTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraphTest - 2020.04.28 at 23h 54m 50s.xml">
+      <configuration name="GraphTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraphTest_BFS - 2020.04.28 at 23h 56m 19s.xml">
+      <configuration name="GraphTest.BFS" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraphTest_BFS - 2020.04.28 at 23h 58m 45s.xml">
+      <configuration name="GraphTest.BFS" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraphTest_BFS - 2020.04.28 at 23h 59m 43s.xml">
+      <configuration name="GraphTest.BFS" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraphTest_DFS - 2020.04.29 at 00h 07m 57s.xml">
+      <configuration name="GraphTest.DFS" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraphTest_BFS - 2020.04.29 at 00h 08m 55s.xml">
+      <configuration name="GraphTest.BFS" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="773" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23021002" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23344104" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Designer" order="3" />
@@ -596,8 +629,8 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32876712" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30440968" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39829302" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3041096" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39726028" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -629,7 +662,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Kth Largest in Stream problem" />
     <MESSAGE value="Optimized the Kth Largest Element" />
     <MESSAGE value="Merge K Sorted Lists" />
     <MESSAGE value="Rename file" />
@@ -654,7 +686,8 @@
     <MESSAGE value="Java Docs" />
     <MESSAGE value="Compile Error Fix" />
     <MESSAGE value="Doubly LinkedList Implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Doubly LinkedList Implementation" />
+    <MESSAGE value="LRU Cache Implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="LRU Cache Implementation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -716,10 +749,10 @@
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode/LRUCache.java</url>
-          <line>43</line>
+          <url>file://$PROJECT_DIR$/src/test/java/datastructures/GraphTest.java</url>
+          <line>20</line>
           <properties />
-          <option name="timeStamp" value="22" />
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -769,36 +802,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/Vehicle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-          <folding>
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/ParkingTicket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1205,34 +1208,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/LRUCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="359" lean-forward="true" selection-start-line="359" selection-end-line="359" />
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1574#1575#0" expanded="true" />
+            <element signature="e#1610#1611#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
+        <state relative-caret-position="3675">
           <caret line="271" column="6" selection-start-line="271" selection-start-column="6" selection-end-line="271" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/LRUCacheTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
+        <state relative-caret-position="675">
           <caret line="70" selection-start-line="70" selection-end-line="70" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/LRUCache.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        <state relative-caret-position="208">
+          <caret line="354" selection-start-line="354" selection-end-line="354" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar!/org/junit/jupiter/engine/execution/MethodInvocation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/datastructures/GraphTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datastructures/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1610#1611#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
           </folding>
         </state>
       </provider>
