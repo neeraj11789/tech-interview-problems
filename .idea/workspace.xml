@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0688f342-8671-45a5-8748-d79465cbfa5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/isValidBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/FindModeinBST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -46,14 +46,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/isValidBST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+            <state relative-caret-position="16">
+              <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
               <folding>
                 <element signature="e#291#292#0" expanded="true" />
                 <element signature="e#314#315#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/FindModeinBST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="77" selection-start-line="5" selection-start-column="77" selection-end-line="5" selection-end-column="77" />
+              <folding>
+                <element signature="e#805#806#0" expanded="true" />
+                <element signature="e#828#829#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,7 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/KnightMinMoves.java" />
         <option value="$PROJECT_DIR$/src/test/java/leetcode/MinMovedSrcToDesGenericTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/MinMovedSrcToDesGeneric.java" />
         <option value="$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/ParkingSpotType.java" />
@@ -169,6 +181,7 @@
         <option value="$PROJECT_DIR$/src/test/java/datastructures/GraphTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/datastructures/Graph.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/isValidBST.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/FindModeinBST.java" />
       </list>
     </option>
   </component>
@@ -674,7 +687,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Merge K Sorted Lists" />
     <MESSAGE value="Rename file" />
     <MESSAGE value="Diameter of a Binary Tree" />
     <MESSAGE value="ContiguousArray Problem" />
@@ -699,7 +711,8 @@
     <MESSAGE value="Doubly LinkedList Implementation" />
     <MESSAGE value="LRU Cache Implementation" />
     <MESSAGE value="BFS &amp; DFS Traversal for Graphs" />
-    <option name="LAST_COMMIT_MESSAGE" value="BFS &amp; DFS Traversal for Graphs" />
+    <MESSAGE value="Validate binary search tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="Validate binary search tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -814,13 +827,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/ParkingFloor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-65">
@@ -1274,11 +1280,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/isValidBST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        <state relative-caret-position="16">
+          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
           <folding>
             <element signature="e#291#292#0" expanded="true" />
             <element signature="e#314#315#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/FindModeinBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="77" selection-start-line="5" selection-start-column="77" selection-end-line="5" selection-end-column="77" />
+          <folding>
+            <element signature="e#805#806#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
           </folding>
         </state>
       </provider>
