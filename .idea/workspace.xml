@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0688f342-8671-45a5-8748-d79465cbfa5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/datastructures/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/datastructures/GraphTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/isValidBST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/datastructures/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+            <state relative-caret-position="326">
+              <caret line="92" column="27" lean-forward="true" selection-start-line="92" selection-start-column="27" selection-end-line="92" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#510#511#0" expanded="true" />
@@ -47,11 +46,24 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/isValidBST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+              <folding>
+                <element signature="e#291#292#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/datastructures/GraphTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+            <state relative-caret-position="251">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -90,8 +102,8 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -106,7 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/HeightOfTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/KnightMinMoves.java" />
         <option value="$PROJECT_DIR$/src/test/java/leetcode/MinMovedSrcToDesGenericTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/MinMovedSrcToDesGeneric.java" />
@@ -157,6 +168,7 @@
         <option value="$PROJECT_DIR$/src/main/java/datastructures/BreadthFirstSearch.java" />
         <option value="$PROJECT_DIR$/src/test/java/datastructures/GraphTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/datastructures/Graph.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/isValidBST.java" />
       </list>
     </option>
   </component>
@@ -584,9 +596,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LRUCacheTest_test4 - 2020.04.28 at 04h 15m 27s.xml">
-      <configuration name="LRUCacheTest.test4" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LRUCacheTest_test4 - 2020.04.28 at 04h 17m 22s.xml">
       <configuration name="LRUCacheTest.test4" configurationId="JUnit" />
     </history-entry>
@@ -614,12 +623,15 @@
     <history-entry file="GraphTest_BFS - 2020.04.29 at 00h 08m 55s.xml">
       <configuration name="GraphTest.BFS" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GraphTest_BFS - 2020.04.29 at 00h 09m 48s.xml">
+      <configuration name="GraphTest.BFS" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23344104" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23344104" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Designer" order="3" />
@@ -629,7 +641,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32876712" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3041096" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3041096" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39726028" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -662,7 +674,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Optimized the Kth Largest Element" />
     <MESSAGE value="Merge K Sorted Lists" />
     <MESSAGE value="Rename file" />
     <MESSAGE value="Diameter of a Binary Tree" />
@@ -687,7 +698,8 @@
     <MESSAGE value="Compile Error Fix" />
     <MESSAGE value="Doubly LinkedList Implementation" />
     <MESSAGE value="LRU Cache Implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="LRU Cache Implementation" />
+    <MESSAGE value="BFS &amp; DFS Traversal for Graphs" />
+    <option name="LAST_COMMIT_MESSAGE" value="BFS &amp; DFS Traversal for Graphs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -802,13 +814,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/systemdesign/parkinglot/model/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1250,19 +1255,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/datastructures/GraphTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        <state relative-caret-position="251">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/datastructures/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+        <state relative-caret-position="326">
+          <caret line="92" column="27" lean-forward="true" selection-start-line="92" selection-start-column="27" selection-end-line="92" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#510#511#0" expanded="true" />
             <element signature="e#530#531#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/isValidBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+          <folding>
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
           </folding>
         </state>
       </provider>
