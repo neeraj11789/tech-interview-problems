@@ -11,6 +11,10 @@ import java.util.Map;
  *
  * @NOTE: Kind Of Technique to learn. Check video for full Observation
  *
+ * Check why 2 pointers will not work here -
+ *
+ * https://leetcode.com/problems/subarray-sum-equals-k/discuss/301242/General-summary-of-what-kind-of-problem-can-cannot-solved-by-Two-Pointers
+ *
  *
  */
 public class SubArraySumEqualsK {
