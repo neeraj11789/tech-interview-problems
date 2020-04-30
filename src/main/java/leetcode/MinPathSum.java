@@ -4,6 +4,10 @@ package leetcode;
  * https://leetcode.com/problems/minimum-path-sum/
  *
  * Explanation Here - https://www.youtube.com/watch?v=t1shZ8_s6jc
+ *
+ * Classic DP Problem Leveraging Memorization with in a different array
+ * Something uniques was that we are populating the first row and first col as base case
+ *
  */
 public class MinPathSum {
 
