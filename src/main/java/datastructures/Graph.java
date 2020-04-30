@@ -52,6 +52,7 @@ public class Graph {
 
 	    while (queue.size()!=0){
 			current = queue.poll();
+		    visited[current] = true;
             System.out.println("Visiting " + current);
 
 		    Iterator<Integer> iterator = adj[current].listIterator();
@@ -59,7 +60,6 @@ public class Graph {
 
 		    	current = iterator.next();
 		    	if (!visited[current]){
-		    		visited[current] = true;
 		    		queue.offer(current);
 			    }
 		    }
@@ -73,7 +73,7 @@ public class Graph {
 		System.out.println("Visiting " + v);
 
 		// Recur for all the vertices adjacent to this vertex
-		Iterator<Integer> i = adj[v].listIterator();
+		Iterator<Integer> i = adj[v].iterator();
 		while (i.hasNext())
 		{
 			int n = i.next();
