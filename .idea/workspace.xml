@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0688f342-8671-45a5-8748-d79465cbfa5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/CheckIfNand2NexistsInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/RemoveElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/RemoveDuplicatesFromSortedArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/ValidMountainArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,15 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/MaxPathSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/ValidArraySequenceFromLeafToNode.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -87,11 +75,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/RemoveDuplicatesFromSortedArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+            <state relative-caret-position="510">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/ValidMountainArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="68" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -140,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/machinecoding/splitwise/model/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/machinecoding/splitwise/service/impl/MemoryUserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/machinecoding/splitwise/model/PassBookEntry.java" />
         <option value="$PROJECT_DIR$/src/main/java/machinecoding/splitwise/util/Constants.java" />
@@ -191,6 +187,7 @@
         <option value="$PROJECT_DIR$/src/test/java/leetcode/RemoveDuplicatesFromSortedArrayTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/CheckIfNand2NexistsInArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/RemoveDuplicatesFromSortedArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/ValidMountainArray.java" />
       </list>
     </option>
   </component>
@@ -715,8 +712,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Validate binary search tree" />
-    <MESSAGE value="Find Mode in the BST" />
     <MESSAGE value="Kth Smallest in the BST" />
     <MESSAGE value="Number of islands using DFS" />
     <MESSAGE value="Number of islands using BFS" />
@@ -740,7 +735,9 @@
     <MESSAGE value="Duplicate Zeros #learning" />
     <MESSAGE value="Merge Sorted Array" />
     <MESSAGE value="Merge Sorted Array ReadMe" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge Sorted Array ReadMe" />
+    <MESSAGE value="Remove Array Elements Card Questions - &#10;&#10;Remove Duplicates from the sorted array&#10;Remove Element" />
+    <MESSAGE value="Check if N and 2N exists #hashset" />
+    <option name="LAST_COMMIT_MESSAGE" value="Check if N and 2N exists #hashset" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -872,13 +869,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/javapractice/MovieNameComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/javapractice/Movie.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1284,8 +1274,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/RemoveDuplicatesFromSortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        <state relative-caret-position="510">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/ValidMountainArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="68" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
         </state>
       </provider>
     </entry>
