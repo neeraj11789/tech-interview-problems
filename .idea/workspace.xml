@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0688f342-8671-45a5-8748-d79465cbfa5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays101/ReplaceElementWithLargestOnRightSide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays101/MoveZeros.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,15 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/SquaresOfSortedArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/DuplicateZeros.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -51,8 +42,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="85" column="32" lean-forward="true" selection-start-line="85" selection-start-column="32" selection-end-line="85" selection-end-column="32" />
+            <state relative-caret-position="333">
+              <caret line="88" column="13" lean-forward="true" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrays101/MoveZeros.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -69,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/RemoveDuplicatesFromSortedArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="75">
+              <caret line="5" column="131" selection-start-line="5" selection-start-column="131" selection-end-line="5" selection-end-column="131" />
             </state>
           </provider>
         </entry>
@@ -84,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrays101/ReplaceElementWithLargestOnRightSide.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+            <state relative-caret-position="360">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -137,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/machinecoding/splitwise/util/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/machinecoding/splitwise/service/ExpenseService.java" />
         <option value="$PROJECT_DIR$/src/main/java/machinecoding/splitwise/model/EqualExpense.java" />
         <option value="$PROJECT_DIR$/src/main/java/machinecoding/splitwise/model/Expense.java" />
@@ -180,14 +179,15 @@
         <option value="$PROJECT_DIR$/src/main/java/leetcode/SquaresOfSortedArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/DuplicateZeros.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/MergeSortedArrays.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/RemoveElements.java" />
         <option value="$PROJECT_DIR$/src/test/java/leetcode/RemoveDuplicatesFromSortedArrayTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/CheckIfNand2NexistsInArray.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/RemoveDuplicatesFromSortedArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/ValidMountainArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/ReplaceElementWithLargestOnRightSide.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/arrays101/ReplaceElementWithLargestOnRightSide.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/RemoveDuplicatesFromSortedArray.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/arrays101/MoveZeros.java" />
       </list>
     </option>
   </component>
@@ -721,8 +721,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Number of islands using DFS" />
-    <MESSAGE value="Number of islands using BFS" />
     <MESSAGE value="Island Perimeter using BFS" />
     <MESSAGE value="Max Area of Island using BFS" />
     <MESSAGE value="Wrong - Rotten Oranges" />
@@ -746,7 +744,9 @@
     <MESSAGE value="Remove Array Elements Card Questions - &#10;&#10;Remove Duplicates from the sorted array&#10;Remove Element" />
     <MESSAGE value="Check if N and 2N exists #hashset" />
     <MESSAGE value="Valid Mountain Array" />
-    <option name="LAST_COMMIT_MESSAGE" value="Valid Mountain Array" />
+    <MESSAGE value="Replace Elements with Greatest Element on Right Side" />
+    <MESSAGE value="Notes For Remove Duplicates from Sorted Array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Notes For Remove Duplicates from Sorted Array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -878,16 +878,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/machinecoding/splitwise/model/EqualExpense.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/machinecoding/splitwise/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1237,13 +1227,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="85" column="32" lean-forward="true" selection-start-line="85" selection-start-column="32" selection-end-line="85" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/RemoveDuplicatesFromSortedArrayTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1268,13 +1251,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/RemoveDuplicatesFromSortedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/ValidMountainArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -1284,8 +1260,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrays101/ReplaceElementWithLargestOnRightSide.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/RemoveDuplicatesFromSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="131" selection-start-line="5" selection-start-column="131" selection-end-line="5" selection-end-column="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="88" column="13" lean-forward="true" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrays101/MoveZeros.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
         </state>
       </provider>
     </entry>
