@@ -25,6 +25,12 @@ public class SquaresOfSortedArray {
 		int k=0;
 
 		/**
+		 * @NOTE: In Merge Sort,
+		 * We use AND condition
+		 * and then process rest
+		 * of the code in next
+		 * loops
+		 *
 		 * Merge Sort Code
 		 */
 		while(i>=0 && j<N){
