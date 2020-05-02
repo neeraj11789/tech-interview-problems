@@ -97,9 +97,47 @@ public boolean isAnagram(String s, String t) {
         return Arrays.equals(a,b);
     }
 ```
+
+### Template for In-Memory Operations with Array -
+```
+/**
+ * @LEARNING : ReadPointer & WritePointer
+ * This can be used as template
+ * We move the readPtr in all the cases.
+ * We move the OtherPtr only when conditions are met - and we do it only when
+ *
+ * readPtr > evenPtr(otherPointer)
+ *
+ * https://leetcode.com/problems/sort-array-by-parity/submissions/
+ */
+public class SortByParity {
+	public int[] sortArrayByParity(int[] A) {
+		int N = A.length;
+
+		int readPtr;
+		int evenPtr=0;
+
+		for(readPtr=0; readPtr<N; readPtr++){
+			if(A[readPtr] % 2 == 0){
+				if(readPtr > evenPtr){
+					int tmp = A[evenPtr];
+					A[evenPtr] = A[readPtr];
+					A[readPtr] = tmp;
+				}
+
+				evenPtr++;
+			}
+		}
+
+		return A;
+	}
+}
+```
+
 ### Tips
 * for valid parenthesis rather than inserting the orignal parentheses, insert the required parenthesis
 * map.getOrDefault(c, 0) + 1
 * Think about why extra information has been given. Since they have given the information about m, n we can use the tail to fill the array - [Merge Sorted Arrays](https://leetcode.com/problems/merge-sorted-array/)
 * For Merge Sort Type of Questions - Use AND conditions to manage pointers while copying. Also, remember to copy rest of the remaining elements [Squares of Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)
 * Check for array questions if you could solve it using 2 pointers. Sometimes we might need different ReadPointer & WritePointer as in [Remove Duplicates from Sorted Array](https://leetcode.com/explore/featured/card/fun-with-arrays/511/in-place-operations/3255/)
+
