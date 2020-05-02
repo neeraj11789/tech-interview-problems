@@ -100,6 +100,6 @@ public boolean isAnagram(String s, String t) {
 ### Tips
 * for valid parenthesis rather than inserting the orignal parentheses, insert the required parenthesis
 * map.getOrDefault(c, 0) + 1
-* Think about why extra information has been given. Since they have given the information about m, n we can use the tail to fill the array - https://leetcode.com/problems/merge-sorted-array/
+* Think about why extra information has been given. Since they have given the information about m, n we can use the tail to fill the array - [Merge Sorted Arrays](https://leetcode.com/problems/merge-sorted-array/)
 * For Merge Sort Type of Questions - Use AND conditions to manage pointers while copying. Also, remember to copy rest of the remaining elements [Squares of Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)
 * Check for array questions if you could solve it using 2 pointers
