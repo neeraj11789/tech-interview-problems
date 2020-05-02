@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0688f342-8671-45a5-8748-d79465cbfa5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays101/SortByParity.java" afterDir="false" />
+    <list default="true" id="0688f342-8671-45a5-8748-d79465cbfa5f" name="Default Changelist" comment="Squares of Sorted Array">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays101/SquaresOfSortedArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -23,19 +23,32 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/MergeSortedArrays.java">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="1472">
+              <caret line="140" column="258" selection-start-line="140" selection-start-column="258" selection-end-line="140" selection-end-column="258" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrays101/SquaresOfSortedArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="614">
-              <caret line="133" column="1" selection-start-line="133" selection-start-column="1" selection-end-line="133" selection-end-column="1" />
+            <state relative-caret-position="60">
+              <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/src.zip!/java/lang/Math.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="1181" column="22" selection-start-line="1181" selection-start-column="22" selection-end-line="1181" selection-end-column="22" />
+              <folding>
+                <element signature="e#46227#46228#0" expanded="true" />
+                <element signature="e#46266#46267#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -106,15 +119,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/RemoveDuplicatesFromSortedArrayTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -138,7 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/machinecoding/splitwise/model/EqualExpense.java" />
         <option value="$PROJECT_DIR$/src/main/java/machinecoding/splitwise/model/Expense.java" />
         <option value="$PROJECT_DIR$/src/main/java/machinecoding/splitwise/service/PassBookService.java" />
         <option value="$PROJECT_DIR$/src/main/java/machinecoding/splitwise/service/impl/MemoryExpenseServiceImpl.java" />
@@ -189,6 +192,7 @@
         <option value="$PROJECT_DIR$/src/main/java/leetcode/arrays101/MoveZeros.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/arrays101/SortByParity.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/arrays101/SquaresOfSortedArray.java" />
       </list>
     </option>
   </component>
@@ -722,7 +726,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Max Area of Island using BFS" />
     <MESSAGE value="Wrong - Rotten Oranges" />
     <MESSAGE value="Rotten Oranges - Good Approach" />
     <MESSAGE value="Min Path Sum - Classic DP Problem" />
@@ -747,7 +750,8 @@
     <MESSAGE value="Replace Elements with Greatest Element on Right Side" />
     <MESSAGE value="Notes For Remove Duplicates from Sorted Array" />
     <MESSAGE value="Move Zeros using Read &amp; Write Pointer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Move Zeros using Read &amp; Write Pointer" />
+    <MESSAGE value="SortByParity + #template #learning updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="SortByParity + #template #learning updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -879,20 +883,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/javapractice/MovieTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/machinecoding/splitwise/model/ExpenseFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/machinecoding/splitwise/model/PercentExpense.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1277,10 +1267,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="1181" column="22" selection-start-line="1181" selection-start-column="22" selection-end-line="1181" selection-end-column="22" />
+          <folding>
+            <element signature="e#46227#46228#0" expanded="true" />
+            <element signature="e#46266#46267#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="133" column="1" selection-start-line="133" selection-start-column="1" selection-end-line="133" selection-end-column="1" />
+        <state relative-caret-position="1472">
+          <caret line="140" column="258" selection-start-line="140" selection-start-column="258" selection-end-line="140" selection-end-column="258" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrays101/SquaresOfSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
         </state>
       </provider>
     </entry>
