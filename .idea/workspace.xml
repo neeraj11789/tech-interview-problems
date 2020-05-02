@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0688f342-8671-45a5-8748-d79465cbfa5f" name="Default Changelist" comment="Squares of Sorted Array">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays101/SquaresOfSortedArray.java" afterDir="false" />
+    <list default="true" id="0688f342-8671-45a5-8748-d79465cbfa5f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays101/HeightChecker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,11 +30,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrays101/SquaresOfSortedArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
+            <state relative-caret-position="345">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrays101/HeightChecker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -107,18 +115,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/CheckIfNand2NexistsInArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -142,7 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/machinecoding/splitwise/model/Expense.java" />
         <option value="$PROJECT_DIR$/src/main/java/machinecoding/splitwise/service/PassBookService.java" />
         <option value="$PROJECT_DIR$/src/main/java/machinecoding/splitwise/service/impl/MemoryExpenseServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/machinecoding/splitwise/service/impl/PassBookServiceImpl.java" />
@@ -193,6 +188,7 @@
         <option value="$PROJECT_DIR$/src/main/java/leetcode/arrays101/SortByParity.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/arrays101/SquaresOfSortedArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/arrays101/HeightChecker.java" />
       </list>
     </option>
   </component>
@@ -726,7 +722,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Wrong - Rotten Oranges" />
     <MESSAGE value="Rotten Oranges - Good Approach" />
     <MESSAGE value="Min Path Sum - Classic DP Problem" />
     <MESSAGE value="LeftMost Column with atleast a one" />
@@ -751,7 +746,8 @@
     <MESSAGE value="Notes For Remove Duplicates from Sorted Array" />
     <MESSAGE value="Move Zeros using Read &amp; Write Pointer" />
     <MESSAGE value="SortByParity + #template #learning updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="SortByParity + #template #learning updated" />
+    <MESSAGE value="Squares of Sorted Array - Merge Sort Problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Squares of Sorted Array - Merge Sort Problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -883,18 +879,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/machinecoding/splitwise/model/PercentExpense.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/LinkedListMiddle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1287,8 +1271,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrays101/SquaresOfSortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrays101/HeightChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
         </state>
       </provider>
     </entry>
