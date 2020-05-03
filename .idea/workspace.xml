@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0688f342-8671-45a5-8748-d79465cbfa5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/LargestNumberTwiceOfOthers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/PlusOne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,20 +30,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/LargestNumberTwiceOfOthers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="3" column="91" selection-start-line="3" selection-start-column="91" selection-end-line="3" selection-end-column="91" />
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrays101/SquaresOfSortedArray.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/PlusOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="416">
+              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -148,7 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/machinecoding/splitwise/model/PercentExpense.java" />
         <option value="$PROJECT_DIR$/src/main/java/machinecoding/splitwise/model/ExpenseFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/leetcode/MyLinkedListTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/MyLinkedList.java" />
@@ -199,6 +198,7 @@
         <option value="$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/PivotElement.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/LargestNumberTwiceOfOthers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/PlusOne.java" />
       </list>
     </option>
   </component>
@@ -759,7 +759,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added comment for two pointers" />
     <MESSAGE value="BitWiseAndOfRangeNumbers #revise #redo #bitwise" />
     <MESSAGE value="Jump Game - NON DP solution" />
     <MESSAGE value="Maximal Squares" />
@@ -784,7 +783,8 @@
     <MESSAGE value="Third Smallest Number" />
     <MESSAGE value="Pivot Element" />
     <MESSAGE value="Pivot Element - added notes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pivot Element - added notes" />
+    <MESSAGE value="Largest Number At Least Twice of Others" />
+    <option name="LAST_COMMIT_MESSAGE" value="Largest Number At Least Twice of Others" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -921,13 +921,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/LRUCacheTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar!/org/junit/jupiter/engine/execution/MethodInvocation.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -1314,8 +1307,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/LargestNumberTwiceOfOthers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="3" column="91" selection-start-line="3" selection-start-column="91" selection-end-line="3" selection-end-column="91" />
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/PlusOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
         </state>
       </provider>
     </entry>
