@@ -1,5 +1,12 @@
 package leetcode.arrayandstring;
 
+/**
+ * @NOTE: Use Pre-Calculation.
+ *
+ * Here pre-computed sum can be used for reducing our complexity.
+ *
+ * https://leetcode.com/explore/learn/card/array-and-string/201/introduction-to-array/1144/
+ */
 public class PivotElement {
 	public int pivotIndex(int[] nums) {
 		int pivot = -1;
