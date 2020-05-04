@@ -86,6 +86,11 @@ public boolean containsDuplicate(int[] nums) {
 for (char c : s.toCharArray()){}
 ```
 
+### Strings -
+Since, Strings are immutable in Java, convert it to mutable form using ```s.toCharArray()``` type functions or ```StringBuilder```
+Refer more here are [this articles](https://leetcode.com/explore/learn/card/array-and-string/203/introduction-to-string/1184/).
+Also, never compare the string using ```==```  operator as mentioned [here](https://leetcode.com/explore/learn/card/array-and-string/203/introduction-to-string/1158/)
+
 ### Arrays - 
 Sort and equals utility
 ```
