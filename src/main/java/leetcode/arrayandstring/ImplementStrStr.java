@@ -24,6 +24,9 @@ public class ImplementStrStr {
 			int hIndex = i;
 			int nIndex = 0;
 
+			// Optimization to reduce comparision
+			if(i+needle.length() > haystack.length()) return -1;
+
 			while (hIndex<haystack.length() && nIndex<needle.length() &&
 			       haystack.charAt(hIndex) == needle.charAt(nIndex)){
 				hIndex++;
