@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0688f342-8671-45a5-8748-d79465cbfa5f" name="Default Changelist" comment="">
+    <list default="true" id="0688f342-8671-45a5-8748-d79465cbfa5f" name="Default Changelist" comment="Updated ReadMe for Strings">
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrayandstring/AddBinary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,11 +21,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="94" column="47" selection-start-line="94" selection-start-column="47" selection-end-line="94" selection-end-column="47" />
+            <state relative-caret-position="75">
+              <caret line="151" lean-forward="true" selection-start-line="151" selection-end-line="151" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/arrayandstring/AddBinary.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -142,7 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/datastructures/GraphTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/isValidBST.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/FindModeinBST.java" />
         <option value="$PROJECT_DIR$/src/main/java/datastructures/TreeNode.java" />
@@ -193,6 +201,7 @@
         <option value="$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/SpiralMatrix.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/PascalsTriangle.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/java/leetcode/arrayandstring/AddBinary.java" />
       </list>
     </option>
   </component>
@@ -342,6 +351,15 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="famng" type="b2602c69:ProjectViewProjectNode" />
+              <item name="famng" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="arrayandstring" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="famng" type="b2602c69:ProjectViewProjectNode" />
@@ -710,7 +728,7 @@
     <frame x="0" y="0" width="1032" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3030303" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3030303" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Designer" order="3" />
@@ -721,7 +739,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.29178083" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39726028" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39726028" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -940,16 +958,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/MaxAreaIsland.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/NIslandsBFS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
@@ -1356,8 +1364,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="94" column="47" selection-start-line="94" selection-start-column="47" selection-end-line="94" selection-end-column="47" />
+        <state relative-caret-position="75">
+          <caret line="151" lean-forward="true" selection-start-line="151" selection-end-line="151" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/arrayandstring/AddBinary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
         </state>
       </provider>
     </entry>
