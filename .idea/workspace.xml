@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0688f342-8671-45a5-8748-d79465cbfa5f" name="Default Changelist" comment="" />
+    <list default="true" id="0688f342-8671-45a5-8748-d79465cbfa5f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/ImplementStrStr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,11 +30,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/arrayandstring/AddBinary.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/AddBinary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="255">
+              <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/ImplementStrStr.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -148,7 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/isValidBST.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/FindModeinBST.java" />
         <option value="$PROJECT_DIR$/src/main/java/datastructures/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/KthSmallestInBST.java" />
@@ -199,6 +210,7 @@
         <option value="$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/PascalsTriangle.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/test/java/leetcode/arrayandstring/AddBinary.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/ImplementStrStr.java" />
       </list>
     </option>
   </component>
@@ -397,6 +409,7 @@
       <recent name="javapractice" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="leetcode.arrayandstring" />
       <recent name="datastructures" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -769,7 +782,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Squares of Sorted Array" />
     <MESSAGE value="Squares of Sorted Array #learning" />
     <MESSAGE value="Duplicate Zeros #learning" />
     <MESSAGE value="Merge Sorted Array" />
@@ -794,7 +806,8 @@
     <MESSAGE value="Pascals Triangle" />
     <MESSAGE value="Updated ReadMe for Strings" />
     <MESSAGE value="Add Binary String" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Binary String" />
+    <MESSAGE value="Add Binary String - moved" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Binary String - moved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -955,16 +968,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/NIslandsBFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/NIslandsDFS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -1366,10 +1369,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/arrayandstring/AddBinary.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/AddBinary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="255">
+          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/ImplementStrStr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
         </state>
       </provider>
     </entry>
