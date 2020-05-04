@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0688f342-8671-45a5-8748-d79465cbfa5f" name="Default Changelist" comment="Diagonal Traverse - #revise #learning">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/DiagonalTraverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrayandstring/DiagonalTraverseTest.java" afterDir="false" />
+    <list default="true" id="0688f342-8671-45a5-8748-d79465cbfa5f" name="Default Changelist" comment="ZigZag printing of Matrix">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/SpiralMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/arrayandstring/SpiralMatrixTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,13 +31,51 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/DiagonalTraverse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+            <state relative-caret-position="249">
+              <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/MatrixZigZag.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/SpiralMatrix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/arrayandstring/SpiralMatrixTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,9 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/MyLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/test/java/leetcode/LRUCacheTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/LRUCache.java" />
         <option value="$PROJECT_DIR$/src/main/java/datastructures/BreadthFirstSearch.java" />
         <option value="$PROJECT_DIR$/src/test/java/datastructures/GraphTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/isValidBST.java" />
@@ -145,6 +179,9 @@
         <option value="$PROJECT_DIR$/src/test/java/leetcode/arrayandstring/DiagonalTraverseTest.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/DiagonalTraverse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/MatrixZigZag.java" />
+        <option value="$PROJECT_DIR$/src/test/java/leetcode/arrayandstring/SpiralMatrixTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/SpiralMatrix.java" />
       </list>
     </option>
   </component>
@@ -359,7 +396,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DiagonalTraverseTest.check">
+  <component name="RunManager" selected="JUnit.SpiralMatrixTest.check">
     <configuration name="DiagonalTraverseTest.check" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="software" />
       <extension name="coverage">
@@ -424,17 +461,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GraphTest.DFS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpiralMatrixTest.check" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="software" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datastructures.*" />
+          <option name="PATTERN" value="leetcode.arrayandstring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="datastructures" />
-      <option name="MAIN_CLASS_NAME" value="datastructures.GraphTest" />
-      <option name="METHOD_NAME" value="DFS" />
+      <option name="PACKAGE_NAME" value="leetcode.arrayandstring" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.arrayandstring.SpiralMatrixTest" />
+      <option name="METHOD_NAME" value="check" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -442,11 +479,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpiralMatrixTest.check" />
         <item itemvalue="JUnit.DiagonalTraverseTest.check" />
         <item itemvalue="JUnit.FindDisappearedNumbersTest.name" />
         <item itemvalue="JUnit.FirstUniqueTest.showFirstUnique" />
         <item itemvalue="JUnit.GraphTest.BFS" />
-        <item itemvalue="JUnit.GraphTest.DFS" />
       </list>
     </recent_temporary>
   </component>
@@ -627,27 +664,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstUniqueTest_showFirstUnique - 2020.05.01 at 18h 32m 21s.xml">
-      <configuration name="FirstUniqueTest.showFirstUnique" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstUniqueTest_showFirstUnique - 2020.05.01 at 18h 35m 32s.xml">
-      <configuration name="FirstUniqueTest.showFirstUnique" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FirstUniqueTest_showFirstUnique - 2020.05.01 at 18h 36m 19s.xml">
-      <configuration name="FirstUniqueTest.showFirstUnique" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FindDisappearedNumbersTest_name - 2020.05.03 at 04h 34m 09s.xml">
-      <configuration name="FindDisappearedNumbersTest.name" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DiagonalTraverseTest_check - 2020.05.04 at 18h 52m 10s.xml">
-      <configuration name="DiagonalTraverseTest.check" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DiagonalTraverseTest_check - 2020.05.04 at 18h 52m 24s.xml">
-      <configuration name="DiagonalTraverseTest.check" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DiagonalTraverseTest_check - 2020.05.04 at 18h 54m 05s.xml">
-      <configuration name="DiagonalTraverseTest.check" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DiagonalTraverseTest_check - 2020.05.04 at 18h 54m 50s.xml">
       <configuration name="DiagonalTraverseTest.check" configurationId="JUnit" />
     </history-entry>
@@ -656,6 +672,27 @@
     </history-entry>
     <history-entry file="DiagonalTraverseTest_check - 2020.05.04 at 19h 01m 21s.xml">
       <configuration name="DiagonalTraverseTest.check" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpiralMatrixTest_check - 2020.05.04 at 20h 54m 39s.xml">
+      <configuration name="SpiralMatrixTest.check" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpiralMatrixTest_check - 2020.05.04 at 20h 57m 50s.xml">
+      <configuration name="SpiralMatrixTest.check" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpiralMatrixTest_check - 2020.05.04 at 21h 02m 51s.xml">
+      <configuration name="SpiralMatrixTest.check" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpiralMatrixTest_check - 2020.05.04 at 21h 10m 21s.xml">
+      <configuration name="SpiralMatrixTest.check" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpiralMatrixTest_check - 2020.05.04 at 21h 10m 44s.xml">
+      <configuration name="SpiralMatrixTest.check" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpiralMatrixTest_check - 2020.05.04 at 21h 11m 41s.xml">
+      <configuration name="SpiralMatrixTest.check" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpiralMatrixTest_check - 2020.05.04 at 21h 13m 56s.xml">
+      <configuration name="SpiralMatrixTest.check" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -706,8 +743,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Jump Game - NON DP solution" />
-    <MESSAGE value="Maximal Squares" />
     <MESSAGE value="LongestCommonSubSequence" />
     <MESSAGE value="First Unique Number" />
     <MESSAGE value="Max Sum Path in Binary Tree" />
@@ -731,7 +766,9 @@
     <MESSAGE value="Pivot Element - added notes" />
     <MESSAGE value="Largest Number At Least Twice of Others" />
     <MESSAGE value="Plus One" />
-    <option name="LAST_COMMIT_MESSAGE" value="Plus One" />
+    <MESSAGE value="Diagonal Traverse - #revise #learning #matrixmaths" />
+    <MESSAGE value="ZigZag printing of Matrix" />
+    <option name="LAST_COMMIT_MESSAGE" value="ZigZag printing of Matrix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -822,6 +859,18 @@
           <properties />
           <option name="timeStamp" value="30" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/SpiralMatrix.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/SpiralMatrix.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -880,30 +929,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/KthSmallestInBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datastructures/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/KthLargest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/LastStoneWeight.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1282,8 +1307,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/DiagonalTraverse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        <state relative-caret-position="249">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/MatrixZigZag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/arrayandstring/SpiralMatrixTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/SpiralMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
