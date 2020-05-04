@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0688f342-8671-45a5-8748-d79465cbfa5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/PascalsTriangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="147" selection-start-line="147" selection-end-line="147" />
+            <state relative-caret-position="58">
+              <caret line="94" column="47" selection-start-line="94" selection-start-column="47" selection-end-line="94" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -66,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/PascalsTriangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="97" lean-forward="true" selection-start-line="7" selection-start-column="97" selection-end-line="7" selection-end-column="97" />
+            <state relative-caret-position="34">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -187,12 +187,12 @@
         <option value="$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/LargestNumberTwiceOfOthers.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/PlusOne.java" />
         <option value="$PROJECT_DIR$/src/test/java/leetcode/arrayandstring/DiagonalTraverseTest.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/DiagonalTraverse.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/MatrixZigZag.java" />
         <option value="$PROJECT_DIR$/src/test/java/leetcode/arrayandstring/SpiralMatrixTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/SpiralMatrix.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/PascalsTriangle.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -754,8 +754,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="First Unique Number" />
-    <MESSAGE value="Max Sum Path in Binary Tree" />
     <MESSAGE value="Valid Array Sequence from Root to Leaf" />
     <MESSAGE value="Squares of Sorted Array" />
     <MESSAGE value="Squares of Sorted Array #learning" />
@@ -779,7 +777,9 @@
     <MESSAGE value="Diagonal Traverse - #revise #learning #matrixmaths" />
     <MESSAGE value="ZigZag printing of Matrix" />
     <MESSAGE value="Spiral Matrix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spiral Matrix" />
+    <MESSAGE value="Pascals Triangle" />
+    <MESSAGE value="Updated ReadMe for Strings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated ReadMe for Strings" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1302,13 +1302,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="147" selection-start-line="147" selection-end-line="147" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/DiagonalTraverse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
@@ -1353,11 +1346,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/PascalsTriangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="97" lean-forward="true" selection-start-line="7" selection-start-column="97" selection-end-line="7" selection-end-column="97" />
+        <state relative-caret-position="34">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="94" column="47" selection-start-line="94" selection-start-column="47" selection-end-line="94" selection-end-column="47" />
         </state>
       </provider>
     </entry>

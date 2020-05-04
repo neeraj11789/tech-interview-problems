@@ -91,6 +91,31 @@ Since, Strings are immutable in Java, convert it to mutable form using ```s.toCh
 Refer more here are [this articles](https://leetcode.com/explore/learn/card/array-and-string/203/introduction-to-string/1184/).
 Also, never compare the string using ```==```  operator as mentioned [here](https://leetcode.com/explore/learn/card/array-and-string/203/introduction-to-string/1158/)
 
+```
+// Converting to Mutable Data Structure example
+public class Main {
+    public static void main(String[] args) {
+        String s = "Hello World";
+        char[] str = s.toCharArray();
+        str[5] = ',';
+        System.out.println(str);
+    }
+}
+
+// StringBuilder Example
+public class Main {
+    public static void main(String[] args) {
+        int n = 10000;
+        StringBuilder str = new StringBuilder();
+        for (int i = 0; i < n; i++) {
+            str.append("hello");
+        }
+        String s = str.toString();
+    }
+}
+```
+
+
 ### Arrays - 
 Sort and equals utility
 ```
