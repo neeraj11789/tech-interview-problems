@@ -1,4 +1,4 @@
-# System Design Preparation Notes - 
+# System Design Notes - 
 
 ### MySQL INT DataType Size - 
 * Type	Storage (Bytes)	Minimum Value Signed	Minimum Value Unsigned	Maximum Value Signed	Maximum Value Unsigned
@@ -26,3 +26,19 @@
 * Java implements IEEE 754 standard double	8 bytes	approximately ±1.79769313486231570E+308 (15 significant decimal digits)
 * char	2 byte	0 to 65,536 (unsigned)
 * boolean	not precisely defined*	true or false
+
+# System Design Related Topics to know - 
+* Load Balancing 
+* Caching - AppCache .. CDN etc
+* Partitioning & Sharing (Horizontal Sharding and Vertical Sharding)
+* Indices - Primary & Secondary
+* Proxies - Proxy & Reverse Proxy
+* Redundancy & Replication 
+* SQL & No-SQL 
+* CAP Theorem
+* Consistent Hashing 
+* Long Polling vs WebSockets
+
+# Good to Know - 
+* [Kafka Internals](https://medium.com/@durgaswaroop/a-practical-introduction-to-kafka-storage-internals-d5b544f6925f)
+* Columnar Database Vs Horizontal Database - [Database Internals](https://medium.com/@rakyll/things-i-wished-more-developers-knew-about-databases-2d0178464f78)
