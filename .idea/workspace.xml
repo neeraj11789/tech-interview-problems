@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0688f342-8671-45a5-8748-d79465cbfa5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/ArrayPartition1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/RemoveElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,24 +22,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/ImplementStrStr.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/LongestCommonPrefix.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/ReverseString.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
@@ -48,11 +30,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/ArrayPartition1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/TwoSumII.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/RemoveElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -146,8 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/NIslandsBFS.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/IslandPerimeter.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/MaxAreaIsland.java" />
         <option value="$PROJECT_DIR$/src/main/java/datastructures/Graph.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/RottenOranges.java" />
@@ -197,6 +195,8 @@
         <option value="$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/ReverseString.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/TwoSumSortedArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/ArrayPartition1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/TwoSumII.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/RemoveElement.java" />
       </list>
     </option>
   </component>
@@ -768,7 +768,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Remove Array Elements Card Questions - &#10;&#10;Remove Duplicates from the sorted array&#10;Remove Element" />
     <MESSAGE value="Check if N and 2N exists #hashset" />
     <MESSAGE value="Valid Mountain Array" />
     <MESSAGE value="Replace Elements with Greatest Element on Right Side" />
@@ -793,7 +792,8 @@
     <MESSAGE value="Implement strstr - optimized" />
     <MESSAGE value="Longest Common Prefix" />
     <MESSAGE value=" Two Sum II - Input array is sorted" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Two Sum II - Input array is sorted" />
+    <MESSAGE value="Two Sum II - Input array is sorted" />
+    <option name="LAST_COMMIT_MESSAGE" value="Two Sum II - Input array is sorted" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -954,14 +954,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/MinPathSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/BinaryMatrix.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/LeftmostColumnWithAtleastAOne.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -1351,8 +1343,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/ArrayPartition1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/TwoSumII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/RemoveElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
