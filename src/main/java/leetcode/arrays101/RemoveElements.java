@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.arrays101;
 
 /**
  * @LEARNING: Using 2 pointers - Write Pointer & I pointer

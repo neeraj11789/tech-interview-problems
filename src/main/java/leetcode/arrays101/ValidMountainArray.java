@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.arrays101;
 
 /**
  * @TODO: 46/51 test cases passed. Need to look back again sometime.
