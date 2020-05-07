@@ -84,6 +84,9 @@ public boolean containsDuplicate(int[] nums) {
 ```
 // String to Character Array =>
 for (char c : s.toCharArray()){}
+
+// Shift Character to some other character
+arr[i] = (char)((arr[i] - 'a' + shift) % 26 + 'a');
 ```
 
 ### Strings -
