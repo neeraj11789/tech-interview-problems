@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0688f342-8671-45a5-8748-d79465cbfa5f" name="Default Changelist" comment="Remove Covered Interval">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/interesting/MyCalendar1.java" afterDir="false" />
+    <list default="true" id="0688f342-8671-45a5-8748-d79465cbfa5f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/interesting/TrappingRainWater.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/interesting/RemovedCoveredIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/interesting/RemovedCoveredIntervals.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,15 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/strings/ValidPalindrome.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/strings/LongestCommonPrefix.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -103,15 +93,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/interesting/MyCalendar1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="465">
+              <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
               <folding>
                 <element signature="e#158#159#0" expanded="true" />
                 <element signature="e#191#192#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/interesting/TrappingRainWater.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -152,7 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/leetcode/RemoveDuplicatesFromSortedArrayTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/CheckIfNand2NexistsInArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/ValidMountainArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/ReplaceElementWithLargestOnRightSide.java" />
@@ -203,6 +201,7 @@
         <option value="$PROJECT_DIR$/src/main/java/leetcode/binaryTree/CousinInBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/interesting/RemovedCoveredIntervals.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/interesting/MyCalendar1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/interesting/TrappingRainWater.java" />
       </list>
     </option>
   </component>
@@ -766,8 +765,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Plus One" />
-    <MESSAGE value="Diagonal Traverse - #revise #learning #matrixmaths" />
     <MESSAGE value="ZigZag printing of Matrix" />
     <MESSAGE value="Spiral Matrix" />
     <MESSAGE value="Pascals Triangle" />
@@ -791,7 +788,9 @@
     <MESSAGE value="String Questions" />
     <MESSAGE value="Cousins Binary Tree" />
     <MESSAGE value="Remove Covered Interval" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove Covered Interval" />
+    <MESSAGE value="My Calendar 1" />
+    <MESSAGE value="My Calendar 1 - SUCCESS" />
+    <option name="LAST_COMMIT_MESSAGE" value="My Calendar 1 - SUCCESS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -952,16 +951,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrays101/ThirdMaximumNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/arrays101/FindDisappearedNumbersTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1354,12 +1343,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/interesting/MyCalendar1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="465">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
           <folding>
             <element signature="e#158#159#0" expanded="true" />
             <element signature="e#191#192#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/interesting/TrappingRainWater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
         </state>
       </provider>
     </entry>
