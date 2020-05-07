@@ -19,10 +19,10 @@ public class MyCalendar1 {
 
 	public boolean book(int start, int end) {
 		Integer previous = calendar.floorKey(start);
-		Integer next = calendar.ceilingKey(end);
+		Integer next = calendar.ceilingKey(start);
 
 		// Compare the Intervals - DRAW NODES OF TREE AND UNDERSTAND
-		if(previous!= null && calendar.get(previous)<=start && next!=null && end<=next){
+		if((previous==null || calendar.get(previous)<=start) && (next==null || end<=next)){
 			calendar.put(start, end);
 			return true;
 		}
