@@ -49,6 +49,7 @@ public class RemovedCoveredIntervals {
 		for (int[] curr : intervals){
 			current_end = curr[1];
 
+			// Just compare the previous end the check if it is already covered
 			if(prev_end < current_end){
 				result++;
 				prev_end = current_end;
