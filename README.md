@@ -67,6 +67,18 @@ if (pq.size() > SIZE_LIMIT)
 * Check Heap Implementation as Inserting/BubbleUp/Sink are important functions to know
 * https://algorithms.tutorialhorizon.com/heap-sort-java-implementation/
 
+
+### Binary Search Tree (Self Balanced) 
+Check TreeMap Usage in Questions (My Calendar)[https://leetcode.com/problems/my-calendar-i/]
+```
+// Create TreeMap
+TreeMap<Integer, Integer> calendar =  new TreeMap<>();
+// Fetch Previous Value
+Integer previous = calendar.floorKey(start);
+// Fetch Next Value
+Integer next = calendar.ceilingKey(start);
+```
+
 ### Set
 ```
 //Set Example -
@@ -178,3 +190,4 @@ public class SortByParity {
 * Check for array questions if you could solve it using 2 pointers. Sometimes we might need different ReadPointer & WritePointer as in [Remove Duplicates from Sorted Array](https://leetcode.com/explore/featured/card/fun-with-arrays/511/in-place-operations/3255/)
 * Sometimes, using pre-computed sum helps - that could reduce the complexity [Find the Pivot](https://leetcode.com/explore/learn/card/array-and-string/201/introduction-to-array/1144/)
 * How do we break a problem into a smaller problem and then solve it by adding complexity. Check the explanation of [Diagonal Traverse](https://leetcode.com/explore/learn/card/array-and-string/202/introduction-to-2d-array/1167/)
+* Check TreeMap Usage in Questions (My Calendar)[https://leetcode.com/problems/my-calendar-i/]
