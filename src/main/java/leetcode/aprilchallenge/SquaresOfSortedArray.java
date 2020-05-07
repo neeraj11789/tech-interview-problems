@@ -1,4 +1,4 @@
-package leetcode.maychallenge;
+package leetcode.aprilchallenge;
 
 /**
  * https://leetcode.com/problems/squares-of-a-sorted-array/solution/
