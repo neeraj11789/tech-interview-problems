@@ -1,5 +1,15 @@
-package leetcode;
+package leetcode.arrays101;
 
+/**
+ *
+ * @NOTE: Use the questions details that we need to insert in the first
+ * array only
+ *
+ * @LEARNING: For all the mergesort type questions - we need to remember to
+ * copy the remaining elements
+ *
+ * https://leetcode.com/explore/learn/card/fun-with-arrays/525/inserting-items-into-an-array/3253/
+ */
 public class MergeSortedArrays {
 	public void merge(int[] nums1, int m, int[] nums2, int n) {
 		int ptrM = m-1;

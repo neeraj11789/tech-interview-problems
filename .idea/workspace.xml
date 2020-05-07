@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0688f342-8671-45a5-8748-d79465cbfa5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays101/FindEvenNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays101/MaximumConsecutiveOnes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/DuplicateZeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays101/DuplicateZeros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/SquaresOfSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/maychallenge/SquaresOfSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/MergeSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/arrays101/MergeSortedArrays.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -86,29 +85,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrays101/FindEvenNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/TwoSumSortedArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="23" column="54" lean-forward="true" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrays101/MaximumConsecutiveOnes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrays101/MergeSortedArrays.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -136,8 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/BinaryMatrix.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/LeftmostColumnWithAtleastAOne.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/SubArraySumEqualsK.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/BitWiseAndOfRangeNumbers.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/JumpGame.java" />
@@ -187,6 +184,8 @@
         <option value="$PROJECT_DIR$/src/main/java/leetcode/arrays101/DuplicateZeros.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/maychallenge/SquaresOfSortedArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/arrays101/FindEvenNumbers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/arrays101/MaximumConsecutiveOnes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/arrays101/MergeSortedArrays.java" />
       </list>
     </option>
   </component>
@@ -768,7 +767,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Replace Elements with Greatest Element on Right Side" />
     <MESSAGE value="Notes For Remove Duplicates from Sorted Array" />
     <MESSAGE value="Move Zeros using Read &amp; Write Pointer" />
     <MESSAGE value="SortByParity + #template #learning updated" />
@@ -793,7 +791,8 @@
     <MESSAGE value="Two Sum II - Input array is sorted" />
     <MESSAGE value="Remove Element" />
     <MESSAGE value="Max Consecutive Ones" />
-    <option name="LAST_COMMIT_MESSAGE" value="Max Consecutive Ones" />
+    <MESSAGE value="Find Numbers with Even Number of Digits" />
+    <option name="LAST_COMMIT_MESSAGE" value="Find Numbers with Even Number of Digits" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -954,13 +953,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/BitWiseAndOfRangeNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/JumpGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1021,13 +1013,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/MergeSortedArrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1351,8 +1336,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrays101/FindEvenNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrays101/MaximumConsecutiveOnes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/arrays101/MergeSortedArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
