@@ -69,7 +69,7 @@ if (pq.size() > SIZE_LIMIT)
 
 
 ### Binary Search Tree (Self Balanced) 
-Check TreeMap Usage in Questions (My Calendar)[https://leetcode.com/problems/my-calendar-i/]
+Check TreeMap Usage in Questions [My Calendar](https://leetcode.com/problems/my-calendar-i/)
 ```
 // Create TreeMap
 TreeMap<Integer, Integer> calendar =  new TreeMap<>();
