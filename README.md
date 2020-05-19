@@ -184,7 +184,7 @@ public class SortByParity {
 
 ### Tips
 * for valid parenthesis rather than inserting the orignal parentheses, insert the required parenthesis
-* map.getOrDefault(c, 0) + 1
+* map.getOrDefault(c, 0) + 1   
 * Think about why extra information has been given. Since they have given the information about m, n we can use the tail to fill the array - [Merge Sorted Arrays](https://leetcode.com/problems/merge-sorted-array/)
 * For Merge Sort Type of Questions - Use AND conditions to manage pointers while copying. Also, remember to copy rest of the remaining elements [Squares of Sorted Array](https://leetcode.com/explore/featured/card/fun-with-arrays/511/in-place-operations/3261/)
 * Check for array questions if you could solve it using 2 pointers. Sometimes we might need different ReadPointer & WritePointer as in [Remove Duplicates from Sorted Array](https://leetcode.com/explore/featured/card/fun-with-arrays/511/in-place-operations/3255/)
