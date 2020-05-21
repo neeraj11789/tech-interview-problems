@@ -1,5 +1,5 @@
 # DSA Preparation Repository
-Data Structures And Problem Solving Deliberate Practice 
+Data Structures & Problem Solving Deliberate Practice 
 
 ## Interview Notes
 
