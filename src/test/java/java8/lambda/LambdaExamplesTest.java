@@ -15,12 +15,24 @@ class LambdaExamplesTest {
     @Test
     void exampleWithOutLambda() {
         System.out.println("**** Without using Lambda Expressions ****");
-        examples.ExampleWithoutLambda();
+        examples.exampleWithoutLambda();
     }
 
     @Test
     void exampleWithLambda() {
         System.out.println("**** With Using Lambda Expressions ****");
-        examples.ExampleWithLambda();
+        examples.exampleWithLambda();
+    }
+
+    @Test
+    void comparatorExampleWithoutLambda() {
+        System.out.println("**** Without using Lambda Expressions ****");
+        examples.comparatorExampleWithoutLambda();
+    }
+
+    @Test
+    void comparatorExampleWithLambda() {
+        System.out.println("**** With Using Lambda Expressions ****");
+        examples.comparatorExampleWithLambda();
     }
 }

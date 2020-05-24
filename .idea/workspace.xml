@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0688f342-8671-45a5-8748-d79465cbfa5f" name="Default Changelist" comment="Updated README.md&#10;Added Classes for Example for LambdaExamples">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/java8/lambda/LambdaExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java8/lambda/LambdaExamples.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/java8/lambda/LambdaExamplesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/java8/lambda/LambdaExamplesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +51,11 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="neeraj gupta &lt;neeraj.gupta@halodoc.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1cFwDlTrYg2kZVDEvF270wqtJDV" />
@@ -89,23 +95,7 @@
       <recent name="systemdesign.parkinglot.model" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LambdaExamplesTest">
-    <configuration name="DiagonalTraverseTest.check" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="software" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.arrayandstring.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode.arrayandstring" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.arrayandstring.DiagonalTraverseTest" />
-      <option name="METHOD_NAME" value="check" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.LambdaExamplesTest.comparatorExampleWithLambda">
     <configuration name="LambdaExamplesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tech" />
       <extension name="coverage">
@@ -117,6 +107,22 @@
       <option name="PACKAGE_NAME" value="java8.lambda" />
       <option name="MAIN_CLASS_NAME" value="java8.lambda.LambdaExamplesTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LambdaExamplesTest.comparatorExampleWithLambda" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tech" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java8.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java8.lambda" />
+      <option name="MAIN_CLASS_NAME" value="java8.lambda.LambdaExamplesTest" />
+      <option name="METHOD_NAME" value="comparatorExampleWithLambda" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -171,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LambdaExamplesTest.comparatorExampleWithLambda" />
         <item itemvalue="JUnit.LambdaExamplesTest" />
         <item itemvalue="JUnit.LambdaExamplesTest.exampleWithLambda" />
         <item itemvalue="JUnit.LambdaExamplesTest.example_withoutlambda" />
         <item itemvalue="JUnit.SpiralMatrixTest.check" />
-        <item itemvalue="JUnit.DiagonalTraverseTest.check" />
       </list>
     </recent_temporary>
   </component>
@@ -359,7 +365,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590335173089</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Updated README.md&#10;Added Classes for Example for LambdaExamples">
+      <created>1590335813838</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1590335813838</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -432,19 +445,23 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="257" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1590335152842" />
+    <state x="730" y="399" width="431" height="252" key="MultipleFileMergeDialog" timestamp="1590335838717">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="730" y="399" width="431" height="252" key="MultipleFileMergeDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1590335838717" />
     <state x="349" y="124" key="SettingsEditor" timestamp="1590335665928">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="349" y="124" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1590335665928" />
     <state x="349" y="135" key="SettingsEditor/0.23.1680.947@0.23.1680.947" timestamp="1590137926566" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1590335177808">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1590335862048">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1590335177808" />
-    <state x="619" y="354" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1590334958303">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1590335862048" />
+    <state x="619" y="354" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1590336251930">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="619" y="354" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1590334958303" />
+    <state x="619" y="354" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1590336251930" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1590335020722">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
