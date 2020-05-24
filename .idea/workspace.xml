@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0688f342-8671-45a5-8748-d79465cbfa5f" name="Default Changelist" comment="Updated README.md&#10;Added Classes for Example for LambdaExamples">
+    <list default="true" id="0688f342-8671-45a5-8748-d79465cbfa5f" name="Default Changelist" comment="More Example for Lambda Expressions">
+      <change afterPath="$PROJECT_DIR$/src/main/java/java8/lambda/lambdaNotes.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java8/lambda/LambdaExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java8/lambda/LambdaExamples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/java8/lambda/LambdaExamplesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/java8/lambda/LambdaExamplesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -372,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590335813838</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="More Example for Lambda Expressions">
+      <created>1590336391778</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1590336391778</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -400,7 +406,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Spiral Matrix" />
     <MESSAGE value="Pascals Triangle" />
     <MESSAGE value="Updated ReadMe for Strings" />
     <MESSAGE value="Add Binary String" />
@@ -425,26 +430,27 @@
     <MESSAGE value="My Calendar 1" />
     <MESSAGE value="My Calendar 1 - SUCCESS" />
     <MESSAGE value="Updated README.md&#10;Added Classes for Example for LambdaExamples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated README.md&#10;Added Classes for Example for LambdaExamples" />
+    <MESSAGE value="More Example for Lambda Expressions" />
+    <option name="LAST_COMMIT_MESSAGE" value="More Example for Lambda Expressions" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="257" key="GridCell.Tab.0.bottom" timestamp="1590335152843">
+    <state width="1638" height="257" key="GridCell.Tab.0.bottom" timestamp="1590336370341">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="257" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1590335152843" />
-    <state width="1638" height="257" key="GridCell.Tab.0.center" timestamp="1590335152841">
+    <state width="1638" height="257" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1590336370341" />
+    <state width="1638" height="257" key="GridCell.Tab.0.center" timestamp="1590336370338">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="257" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1590335152841" />
-    <state width="1638" height="257" key="GridCell.Tab.0.left" timestamp="1590335152840">
+    <state width="1638" height="257" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1590336370338" />
+    <state width="1638" height="257" key="GridCell.Tab.0.left" timestamp="1590336370337">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="257" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1590335152840" />
-    <state width="1638" height="257" key="GridCell.Tab.0.right" timestamp="1590335152842">
+    <state width="1638" height="257" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1590336370337" />
+    <state width="1638" height="257" key="GridCell.Tab.0.right" timestamp="1590336370340">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="257" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1590335152842" />
+    <state width="1638" height="257" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1590336370340" />
     <state x="730" y="399" width="431" height="252" key="MultipleFileMergeDialog" timestamp="1590335838717">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -454,10 +460,10 @@
     </state>
     <state x="349" y="124" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1590335665928" />
     <state x="349" y="135" key="SettingsEditor/0.23.1680.947@0.23.1680.947" timestamp="1590137926566" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1590335862048">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1590336395637">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1590335862048" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1590336395637" />
     <state x="619" y="354" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1590336251930">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
