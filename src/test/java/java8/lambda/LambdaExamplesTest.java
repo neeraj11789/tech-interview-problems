@@ -35,4 +35,10 @@ class LambdaExamplesTest {
         System.out.println("**** With Using Lambda Expressions ****");
         examples.comparatorExampleWithLambda();
     }
+
+    @Test
+    void chainConsumers() {
+        System.out.println("**** Example of Consumers ****");
+        examples.chainConsumers();
+    }
 }

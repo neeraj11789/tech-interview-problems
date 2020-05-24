@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0688f342-8671-45a5-8748-d79465cbfa5f" name="Default Changelist" comment="More Example for Lambda Expressions">
-      <change afterPath="$PROJECT_DIR$/src/main/java/java8/lambda/lambdaNotes.md" afterDir="false" />
+    <list default="true" id="0688f342-8671-45a5-8748-d79465cbfa5f" name="Default Changelist" comment="Added Notes for Lambda">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/java8/lambda/LambdaExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java8/lambda/LambdaExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/java8/lambda/LambdaExamplesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/java8/lambda/LambdaExamplesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +95,7 @@
       <recent name="systemdesign.parkinglot.model" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LambdaExamplesTest.comparatorExampleWithLambda">
+  <component name="RunManager" selected="JUnit.LambdaExamplesTest.chainConsumers">
     <configuration name="LambdaExamplesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tech" />
       <extension name="coverage">
@@ -106,6 +107,22 @@
       <option name="PACKAGE_NAME" value="java8.lambda" />
       <option name="MAIN_CLASS_NAME" value="java8.lambda.LambdaExamplesTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LambdaExamplesTest.chainConsumers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tech" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java8.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java8.lambda" />
+      <option name="MAIN_CLASS_NAME" value="java8.lambda.LambdaExamplesTest" />
+      <option name="METHOD_NAME" value="chainConsumers" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -158,29 +175,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpiralMatrixTest.check" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="software" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.arrayandstring.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode.arrayandstring" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.arrayandstring.SpiralMatrixTest" />
-      <option name="METHOD_NAME" value="check" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LambdaExamplesTest.chainConsumers" />
         <item itemvalue="JUnit.LambdaExamplesTest.comparatorExampleWithLambda" />
         <item itemvalue="JUnit.LambdaExamplesTest" />
         <item itemvalue="JUnit.LambdaExamplesTest.exampleWithLambda" />
         <item itemvalue="JUnit.LambdaExamplesTest.example_withoutlambda" />
-        <item itemvalue="JUnit.SpiralMatrixTest.check" />
       </list>
     </recent_temporary>
   </component>
@@ -378,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590336391778</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Added Notes for Lambda">
+      <created>1590347108298</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1590347108298</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -406,7 +414,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Pascals Triangle" />
     <MESSAGE value="Updated ReadMe for Strings" />
     <MESSAGE value="Add Binary String" />
     <MESSAGE value="Add Binary String - moved" />
@@ -431,26 +438,27 @@
     <MESSAGE value="My Calendar 1 - SUCCESS" />
     <MESSAGE value="Updated README.md&#10;Added Classes for Example for LambdaExamples" />
     <MESSAGE value="More Example for Lambda Expressions" />
-    <option name="LAST_COMMIT_MESSAGE" value="More Example for Lambda Expressions" />
+    <MESSAGE value="Added Notes for Lambda" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Notes for Lambda" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="257" key="GridCell.Tab.0.bottom" timestamp="1590336370341">
+    <state width="1638" height="257" key="GridCell.Tab.0.bottom" timestamp="1590347612466">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="257" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1590336370341" />
-    <state width="1638" height="257" key="GridCell.Tab.0.center" timestamp="1590336370338">
+    <state width="1638" height="257" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1590347612466" />
+    <state width="1638" height="257" key="GridCell.Tab.0.center" timestamp="1590347612463">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="257" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1590336370338" />
-    <state width="1638" height="257" key="GridCell.Tab.0.left" timestamp="1590336370337">
+    <state width="1638" height="257" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1590347612463" />
+    <state width="1638" height="257" key="GridCell.Tab.0.left" timestamp="1590347612461">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="257" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1590336370337" />
-    <state width="1638" height="257" key="GridCell.Tab.0.right" timestamp="1590336370340">
+    <state width="1638" height="257" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1590347612461" />
+    <state width="1638" height="257" key="GridCell.Tab.0.right" timestamp="1590347612464">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="257" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1590336370340" />
+    <state width="1638" height="257" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1590347612464" />
     <state x="730" y="399" width="431" height="252" key="MultipleFileMergeDialog" timestamp="1590335838717">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -464,10 +472,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1590336395637" />
-    <state x="619" y="354" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1590336251930">
+    <state x="619" y="354" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1590347440102">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="619" y="354" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1590336251930" />
+    <state x="619" y="354" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1590347440102" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1590335020722">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

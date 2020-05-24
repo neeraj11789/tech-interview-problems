@@ -2,10 +2,8 @@ package java8.lambda;
 
 import java.io.File;
 import java.io.FileFilter;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
+import java.util.function.Consumer;
 
 public class LambdaExamples {
 
@@ -73,6 +71,24 @@ public class LambdaExamples {
         for (String s: strings){
             System.out.println(s);
         }
+    }
+
+
+    public void chainConsumers(){
+        List<String> l1 = Arrays.asList("one", "two", "three", "four", "five");
+
+        List<String> l2 = new ArrayList<>();
+
+        Consumer<String> c1 = System.out::println;
+        Consumer<String> c2 = s -> l2.add(s);
+
+        // Shorthand of above
+//        Consumer<String> c3 = l2::add;
+//        l1.forEach(c1);
+
+        // Chaining =>
+        l1.forEach(c1.andThen(c2));
+        System.out.println("After processing - Size " + l2.size());
     }
 
 }
