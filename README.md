@@ -1,5 +1,25 @@
 # DSA Preparation Repository
-Data Structures & Problem Solving Deliberate Practice 
+Data Structures & Problem Solving Deliberate Practice for the FAANG Companies - 
+1. Google
+2. Facebook
+3. Amazon
+4. Uber
+5. Microsoft
+6. Goldman Sachs
+7. Walmart
+8. Atlassian
+9. Indeed
+10. Hotstar
+11. Swiggy
+12. Phonepe
+13. Makemytrip
+14. GoGek
+15. Grab
+16. Nutanix
+17. Curefit
+18. Inmobi
+19. Myntra
+20. GroupOn
 
 ## Interview Notes
 
