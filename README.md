@@ -20,6 +20,7 @@ Data Structures & Problem Solving Deliberate Practice for the FAANG Companies -
 18. Inmobi
 19. Myntra
 20. GroupOn
+21. Cult-fit
 
 ## Interview Notes
 
