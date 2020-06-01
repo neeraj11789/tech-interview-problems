@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0688f342-8671-45a5-8748-d79465cbfa5f" name="Default Changelist" comment="Added Notes for Lambda">
+    <list default="true" id="0688f342-8671-45a5-8748-d79465cbfa5f" name="Default Changelist" comment="StreamApiExamples added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/junechallenge/InvertBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java8/lambda/LambdaExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java8/lambda/LambdaExamples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/java8/lambda/LambdaExamplesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/java8/lambda/LambdaExamplesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +39,8 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -58,26 +57,37 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1cFwDlTrYg2kZVDEvF270wqtJDV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="PluginDummyText.Genre" value="scifi" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="java8.streamapi" />
       <recent name="java8.lambda" />
       <recent name="leetcode.arrayandstring" />
       <recent name="leetcode.arrays101" />
       <recent name="leetcode" />
-      <recent name="datastructures" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="leetcode.arrays101" />
@@ -95,7 +105,7 @@
       <recent name="systemdesign.parkinglot.model" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LambdaExamplesTest.chainConsumers">
+  <component name="RunManager" selected="JUnit.StreamApiExamplesTest.simpleExample">
     <configuration name="LambdaExamplesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tech" />
       <extension name="coverage">
@@ -143,33 +153,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaExamplesTest.exampleWithLambda" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StreamApiExamplesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tech" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java8.lambda.*" />
+          <option name="PATTERN" value="java8.streamapi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java8.lambda" />
-      <option name="MAIN_CLASS_NAME" value="java8.lambda.LambdaExamplesTest" />
-      <option name="METHOD_NAME" value="exampleWithLambda" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="java8.streamapi" />
+      <option name="MAIN_CLASS_NAME" value="java8.streamapi.StreamApiExamplesTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaExamplesTest.example_withoutlambda" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StreamApiExamplesTest.simpleExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tech" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java8.lambda.*" />
+          <option name="PATTERN" value="java8.streamapi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java8.lambda" />
-      <option name="MAIN_CLASS_NAME" value="java8.lambda.LambdaExamplesTest" />
-      <option name="METHOD_NAME" value="example_withoutlambda" />
+      <option name="PACKAGE_NAME" value="java8.streamapi" />
+      <option name="MAIN_CLASS_NAME" value="java8.streamapi.StreamApiExamplesTest" />
+      <option name="METHOD_NAME" value="simpleExample" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -177,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StreamApiExamplesTest.simpleExample" />
+        <item itemvalue="JUnit.StreamApiExamplesTest" />
         <item itemvalue="JUnit.LambdaExamplesTest.chainConsumers" />
         <item itemvalue="JUnit.LambdaExamplesTest.comparatorExampleWithLambda" />
         <item itemvalue="JUnit.LambdaExamplesTest" />
-        <item itemvalue="JUnit.LambdaExamplesTest.exampleWithLambda" />
-        <item itemvalue="JUnit.LambdaExamplesTest.example_withoutlambda" />
       </list>
     </recent_temporary>
   </component>
@@ -386,7 +395,28 @@
       <option name="project" value="LOCAL" />
       <updated>1590347108298</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Added Consumer Example">
+      <created>1590347640859</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1590347640859</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Git Notes from the missing semester">
+      <created>1590686685825</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1590686685825</updated>
+    </task>
+    <task id="LOCAL-00029" summary="StreamApiExamples added">
+      <created>1590686704045</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1590686704045</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -412,11 +442,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated ReadMe for Strings" />
-    <MESSAGE value="Add Binary String" />
-    <MESSAGE value="Add Binary String - moved" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Implement strstr" />
     <MESSAGE value="Implement strstr - optimized" />
     <MESSAGE value="Longest Common Prefix" />
@@ -439,47 +468,59 @@
     <MESSAGE value="Updated README.md&#10;Added Classes for Example for LambdaExamples" />
     <MESSAGE value="More Example for Lambda Expressions" />
     <MESSAGE value="Added Notes for Lambda" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Notes for Lambda" />
+    <MESSAGE value="Added Consumer Example" />
+    <MESSAGE value="Git Notes from the missing semester" />
+    <MESSAGE value="StreamApiExamples added" />
+    <option name="LAST_COMMIT_MESSAGE" value="StreamApiExamples added" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="257" key="GridCell.Tab.0.bottom" timestamp="1590347612466">
+    <state x="676" y="425" key="#Markdown" timestamp="1590660914363">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="257" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1590347612466" />
-    <state width="1638" height="257" key="GridCell.Tab.0.center" timestamp="1590347612463">
+    <state x="676" y="425" key="#Markdown/0.0.1680.1050@0.0.1680.1050" timestamp="1590660914363" />
+    <state x="100" y="100" width="1480" height="850" key="DiffContextDialog" timestamp="1590663965369">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="100" y="100" width="1480" height="850" key="DiffContextDialog/0.23.1680.947@0.23.1680.947" timestamp="1590663965369" />
+    <state width="1638" height="257" key="GridCell.Tab.0.bottom" timestamp="1590385274028">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="257" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1590347612463" />
-    <state width="1638" height="257" key="GridCell.Tab.0.left" timestamp="1590347612461">
+    <state width="1638" height="257" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1590385274028" />
+    <state width="1638" height="257" key="GridCell.Tab.0.center" timestamp="1590385274025">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="257" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1590347612461" />
-    <state width="1638" height="257" key="GridCell.Tab.0.right" timestamp="1590347612464">
+    <state width="1638" height="257" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1590385274025" />
+    <state width="1638" height="257" key="GridCell.Tab.0.left" timestamp="1590385274022">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="257" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1590347612464" />
+    <state width="1638" height="257" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1590385274022" />
+    <state width="1638" height="257" key="GridCell.Tab.0.right" timestamp="1590385274027">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="257" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1590385274027" />
     <state x="730" y="399" width="431" height="252" key="MultipleFileMergeDialog" timestamp="1590335838717">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="730" y="399" width="431" height="252" key="MultipleFileMergeDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1590335838717" />
-    <state x="349" y="124" key="SettingsEditor" timestamp="1590335665928">
+    <state x="349" y="124" key="SettingsEditor" timestamp="1590349358834">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="349" y="124" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1590335665928" />
+    <state x="349" y="124" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1590349358834" />
     <state x="349" y="135" key="SettingsEditor/0.23.1680.947@0.23.1680.947" timestamp="1590137926566" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1590336395637">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1590686711225">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1590336395637" />
-    <state x="619" y="354" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1590347440102">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1590686711225" />
+    <state x="619" y="354" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1590349375639">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="619" y="354" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1590347440102" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1590335020722">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="619" y="354" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1590349375639" />
+    <state x="505" y="233" width="670" height="610" key="search.everywhere.popup" timestamp="1591030865395">
+      <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1590335020722" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1590685838190" />
+    <state x="505" y="233" width="670" height="610" key="search.everywhere.popup/0.23.1680.947@0.23.1680.947" timestamp="1591030865395" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
