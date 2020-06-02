@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0688f342-8671-45a5-8748-d79465cbfa5f" name="Default Changelist" comment="StreamApiExamples added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/junechallenge/InvertBinaryTree.java" afterDir="false" />
+    <list default="true" id="0688f342-8671-45a5-8748-d79465cbfa5f" name="Default Changelist" comment="Invert Binary Tree Problem">
+      <change afterPath="$PROJECT_DIR$/src/main/java/datastructures/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/junechallenge/DeleteNodeLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -416,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590686704045</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Invert Binary Tree Problem">
+      <created>1591030969695</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1591030969695</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -446,7 +454,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Implement strstr" />
     <MESSAGE value="Implement strstr - optimized" />
     <MESSAGE value="Longest Common Prefix" />
     <MESSAGE value=" Two Sum II - Input array is sorted" />
@@ -471,7 +478,8 @@
     <MESSAGE value="Added Consumer Example" />
     <MESSAGE value="Git Notes from the missing semester" />
     <MESSAGE value="StreamApiExamples added" />
-    <option name="LAST_COMMIT_MESSAGE" value="StreamApiExamples added" />
+    <MESSAGE value="Invert Binary Tree Problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Invert Binary Tree Problem" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -508,19 +516,20 @@
     </state>
     <state x="349" y="124" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1590349358834" />
     <state x="349" y="135" key="SettingsEditor/0.23.1680.947@0.23.1680.947" timestamp="1590137926566" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1590686711225">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="440" y="262" key="Vcs.Push.Dialog.v2" timestamp="1591030974850">
+      <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1590686711225" />
+    <state x="440" y="262" key="Vcs.Push.Dialog.v2/0.23.1680.947@0.23.1680.947" timestamp="1591030974850" />
     <state x="619" y="354" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1590349375639">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="619" y="354" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1590349375639" />
-    <state x="505" y="233" width="670" height="610" key="search.everywhere.popup" timestamp="1591030865395">
+    <state x="505" y="233" width="670" height="610" key="search.everywhere.popup" timestamp="1591111219128">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1590685838190" />
-    <state x="505" y="233" width="670" height="610" key="search.everywhere.popup/0.23.1680.947@0.23.1680.947" timestamp="1591030865395" />
+    <state x="505" y="233" width="670" height="610" key="search.everywhere.popup/0.23.1680.947@0.23.1680.947" timestamp="1591111219128" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
