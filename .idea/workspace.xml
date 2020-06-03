@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0688f342-8671-45a5-8748-d79465cbfa5f" name="Default Changelist" comment="Invert Binary Tree Problem">
-      <change afterPath="$PROJECT_DIR$/src/main/java/datastructures/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/junechallenge/DeleteNodeLinkedList.java" afterDir="false" />
+    <list default="true" id="0688f342-8671-45a5-8748-d79465cbfa5f" name="Default Changelist" comment="Deleted a node in a linked list">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/junechallenge/TwoCityScheduling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/junechallenge/TwoCitySchedulingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,15 +41,10 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>size</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -84,11 +80,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="leetcode.junechallenge" />
       <recent name="java8.streamapi" />
       <recent name="java8.lambda" />
       <recent name="leetcode.arrayandstring" />
       <recent name="leetcode.arrays101" />
-      <recent name="leetcode" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="leetcode.arrays101" />
@@ -106,22 +102,7 @@
       <recent name="systemdesign.parkinglot.model" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StreamApiExamplesTest.simpleExample">
-    <configuration name="LambdaExamplesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tech" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java8.lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="java8.lambda" />
-      <option name="MAIN_CLASS_NAME" value="java8.lambda.LambdaExamplesTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TwoCitySchedulingTest.twoCitySchedCost">
     <configuration name="LambdaExamplesTest.chainConsumers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tech" />
       <extension name="coverage">
@@ -185,13 +166,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TwoCitySchedulingTest.twoCitySchedCost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tech" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.junechallenge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode.junechallenge" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.junechallenge.TwoCitySchedulingTest" />
+      <option name="METHOD_NAME" value="twoCitySchedCost" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TwoCitySchedulingTest.twoCitySchedCost" />
         <item itemvalue="JUnit.StreamApiExamplesTest.simpleExample" />
         <item itemvalue="JUnit.StreamApiExamplesTest" />
         <item itemvalue="JUnit.LambdaExamplesTest.chainConsumers" />
         <item itemvalue="JUnit.LambdaExamplesTest.comparatorExampleWithLambda" />
-        <item itemvalue="JUnit.LambdaExamplesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -424,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591030969695</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Deleted a node in a linked list">
+      <created>1591111375790</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1591111375790</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -454,7 +458,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Implement strstr - optimized" />
     <MESSAGE value="Longest Common Prefix" />
     <MESSAGE value=" Two Sum II - Input array is sorted" />
     <MESSAGE value="Two Sum II - Input array is sorted" />
@@ -479,34 +482,63 @@
     <MESSAGE value="Git Notes from the missing semester" />
     <MESSAGE value="StreamApiExamples added" />
     <MESSAGE value="Invert Binary Tree Problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Invert Binary Tree Problem" />
+    <MESSAGE value="Deleted a node in a linked list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleted a node in a linked list" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="407" y="42" key="#Java" timestamp="1591206464319">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="407" y="42" key="#Java/0.23.1680.947@0.23.1680.947" timestamp="1591206464319" />
     <state x="676" y="425" key="#Markdown" timestamp="1590660914363">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="676" y="425" key="#Markdown/0.0.1680.1050@0.0.1680.1050" timestamp="1590660914363" />
+    <state x="653" y="210" key="#com.intellij.ide.util.MemberChooser" timestamp="1591205627178">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="653" y="210" key="#com.intellij.ide.util.MemberChooser/0.23.1680.947@0.23.1680.947" timestamp="1591205627178" />
     <state x="100" y="100" width="1480" height="850" key="DiffContextDialog" timestamp="1590663965369">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="100" y="100" width="1480" height="850" key="DiffContextDialog/0.23.1680.947@0.23.1680.947" timestamp="1590663965369" />
-    <state width="1638" height="257" key="GridCell.Tab.0.bottom" timestamp="1590385274028">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="311" key="GridCell.Tab.0.bottom" timestamp="1591207252510">
+      <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state width="1638" height="257" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1590385274028" />
-    <state width="1638" height="257" key="GridCell.Tab.0.center" timestamp="1590385274025">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="311" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1591207252510" />
+    <state width="1638" height="311" key="GridCell.Tab.0.center" timestamp="1591207252509">
+      <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state width="1638" height="257" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1590385274025" />
-    <state width="1638" height="257" key="GridCell.Tab.0.left" timestamp="1590385274022">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="311" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1591207252509" />
+    <state width="1638" height="311" key="GridCell.Tab.0.left" timestamp="1591207252509">
+      <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state width="1638" height="257" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1590385274022" />
-    <state width="1638" height="257" key="GridCell.Tab.0.right" timestamp="1590385274027">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="311" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1591207252509" />
+    <state width="1638" height="311" key="GridCell.Tab.0.right" timestamp="1591207252510">
+      <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state width="1638" height="257" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1590385274027" />
+    <state width="1638" height="311" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1591207252510" />
+    <state width="1638" height="311" key="GridCell.Tab.1.bottom" timestamp="1591207253117">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="1638" height="311" key="GridCell.Tab.1.bottom/0.23.1680.947@0.23.1680.947" timestamp="1591207253117" />
+    <state width="1638" height="311" key="GridCell.Tab.1.center" timestamp="1591207253115">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="1638" height="311" key="GridCell.Tab.1.center/0.23.1680.947@0.23.1680.947" timestamp="1591207253115" />
+    <state width="1638" height="311" key="GridCell.Tab.1.left" timestamp="1591207253115">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="1638" height="311" key="GridCell.Tab.1.left/0.23.1680.947@0.23.1680.947" timestamp="1591207253115" />
+    <state width="1638" height="311" key="GridCell.Tab.1.right" timestamp="1591207253116">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="1638" height="311" key="GridCell.Tab.1.right/0.23.1680.947@0.23.1680.947" timestamp="1591207253116" />
     <state x="730" y="399" width="431" height="252" key="MultipleFileMergeDialog" timestamp="1590335838717">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -516,20 +548,25 @@
     </state>
     <state x="349" y="124" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1590349358834" />
     <state x="349" y="135" key="SettingsEditor/0.23.1680.947@0.23.1680.947" timestamp="1590137926566" />
-    <state x="440" y="262" key="Vcs.Push.Dialog.v2" timestamp="1591030974850">
+    <state x="440" y="262" key="Vcs.Push.Dialog.v2" timestamp="1591111439644">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1590686711225" />
-    <state x="440" y="262" key="Vcs.Push.Dialog.v2/0.23.1680.947@0.23.1680.947" timestamp="1591030974850" />
-    <state x="619" y="354" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1590349375639">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="440" y="262" key="Vcs.Push.Dialog.v2/0.23.1680.947@0.23.1680.947" timestamp="1591111439644" />
+    <state x="619" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1591206446666">
+      <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="619" y="354" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1590349375639" />
-    <state x="505" y="233" width="670" height="610" key="search.everywhere.popup" timestamp="1591111219128">
+    <state x="619" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1680.947@0.23.1680.947" timestamp="1591206446666" />
+    <state x="541" y="251" width="598" height="490" key="find.popup" timestamp="1591206964309">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="541" y="251" width="598" height="490" key="find.popup/0.23.1680.947@0.23.1680.947" timestamp="1591206964309" />
+    <state x="505" y="233" width="670" height="610" key="search.everywhere.popup" timestamp="1591206401287">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1590685838190" />
-    <state x="505" y="233" width="670" height="610" key="search.everywhere.popup/0.23.1680.947@0.23.1680.947" timestamp="1591111219128" />
+    <state x="505" y="233" width="670" height="610" key="search.everywhere.popup/0.23.1680.947@0.23.1680.947" timestamp="1591206401287" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -616,6 +653,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/leetcode/arrayandstring/SpiralMatrix.java</url>
           <line>49</line>
           <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/leetcode/junechallenge/TwoCitySchedulingTest.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/junechallenge/TwoCityScheduling.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
