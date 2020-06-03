@@ -20,7 +20,7 @@ public class TwoCityScheduling {
 		// Create a max heap of the difference of the costs
 		if(costs == null) return 0;
 
-		Comparator<int[]> comparator = (int[] a, int[] b) -> Integer.compare(a[1]-a[0], b[1]-b[0]);
+		Comparator<int[]> comparator = Comparator.comparingInt((int[] a) -> a[1] - a[0]);
 
 		int N = costs.length;
 		Collections.sort(Arrays.asList(costs), comparator);
