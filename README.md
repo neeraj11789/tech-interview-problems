@@ -1,30 +1,32 @@
 # DSA Preparation Repository
 Data Structures & Problem Solving Deliberate Practice for the FAANG Companies - 
 1. Google
-2. Facebook
-3. Amazon
-4. Uber
-5. Microsoft
-6. Goldman Sachs
-7. Walmart
-8. Atlassian
-9. Indeed
-10. Hotstar
-11. Swiggy
-12. Phonepe
-13. Makemytrip
-14. GoGek
-15. Grab
-16. Nutanix
-17. Curefit
-18. Inmobi
-19. Myntra
-20. GroupOn
-21. Cult-fit
-22. Ola
-23. Flipkart
-24. VMWare
-25. Paytm
+1. Facebook
+1. Amazon
+1. Uber
+1. Apple
+1. Adobe
+1. Microsoft
+1. Goldman Sachs
+1. Walmart
+1. Atlassian
+1. Indeed
+1. Hotstar
+1. Swiggy
+1. Phonepe
+1. Makemytrip
+1. GoGek
+1. Grab
+1. Nutanix
+1. Curefit
+1. Inmobi
+1. Myntra
+1. GroupOn
+1. Cult-fit
+1. Ola
+1. Flipkart
+1. VMWare
+1. Paytm
 
 ## Interview Notes
 
