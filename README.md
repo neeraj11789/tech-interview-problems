@@ -21,6 +21,10 @@ Data Structures & Problem Solving Deliberate Practice for the FAANG Companies -
 19. Myntra
 20. GroupOn
 21. Cult-fit
+22. Ola
+23. Flipkart
+24. VMWare
+25. Paytm
 
 ## Interview Notes
 
