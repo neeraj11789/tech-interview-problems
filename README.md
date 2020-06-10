@@ -27,6 +27,7 @@ Data Structures & Problem Solving Deliberate Practice for the FAANG <Ambitious> 
 1. Flipkart
 1. VMWare
 1. Paytm
+1. Cred
 
 ## Interview Notes
 
