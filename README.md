@@ -1,5 +1,5 @@
 # DSA Preparation Repository
-Data Structures & Problem Solving Deliberate Practice for the FAANG <Ambitious> and other companies - 
+Data Structures & Problem Solving Deliberate Practice for the FAANG <Ambitious> and other companies
 1. Google
 1. Facebook
 1. Amazon
