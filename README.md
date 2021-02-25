@@ -1,8 +1,5 @@
 # DSA Preparation Repository
-Data Structures & Problem Solving Deliberate Practice for the FAANG <Ambitious> and other companies - 
-1. Microsoft
-1. Freshworks
-1. Walmart
+Data Structures & Problem Solving Deliberate Practice for the FAANG and others
 
 ## Interview Notes
 
