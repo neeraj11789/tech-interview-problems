@@ -38,4 +38,11 @@ class NumbersWithEvenNoOfDigitsTest {
         final Integer integer = program.run();
         Assertions.assertEquals(0, integer);
     }
+
+    @Test
+    void test4() {
+        program.setList(Lists.newArrayList(2, 12, 59, 53, 12, 2));
+        final Integer integer = program.run();
+        Assertions.assertEquals(4, integer);
+    }
 }
