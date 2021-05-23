@@ -27,16 +27,17 @@ public class PartitionList {
 
     private ListNode merge() {
         leftCurrent.next = rightHead.next;
+        rightCurrent.next = null;
         return leftHead.next;
     }
 
     private void addToLeftNode(ListNode current) {
-        leftCurrent.next = new ListNode(current.val);
+        leftCurrent.next = current;
         leftCurrent = leftCurrent.next;
     }
 
     private void addToRightNode(ListNode current) {
-        rightCurrent.next = new ListNode(current.val);
+        rightCurrent.next = current;
         rightCurrent = rightCurrent.next;
     }
 
