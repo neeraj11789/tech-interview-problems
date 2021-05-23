@@ -4,8 +4,6 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import v1.datastructures.ListNode;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 class PartitionListTest {
 
     private PartitionList partitionList;
