@@ -42,4 +42,17 @@ class PartitionListTest {
         ListNode partition = partitionList.partition(head, 6);
         partitionList.print(partition);
     }
+
+    @Test
+    void test2() {
+        ListNode partition = partitionList.partition(null, 6);
+        partitionList.print(partition);
+    }
+
+    @Test
+    void test3() {
+//        partitionList.print(head);
+        ListNode partition = partitionList.partition(head, 60);
+        partitionList.print(partition);
+    }
 }
