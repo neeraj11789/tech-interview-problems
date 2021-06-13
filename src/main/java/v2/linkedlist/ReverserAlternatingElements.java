@@ -7,13 +7,13 @@ import v1.datastructures.ListNode;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ReverseLinkedListKGroup {
+public class ReverserAlternatingElements {
 
     private ListNode head;
 
     private Integer group;
 
-    public ReverseLinkedListKGroup(int k, ListNode head) {
+    public ReverserAlternatingElements(int k, ListNode head) {
         this.group = k;
         this.head = head;
     }
@@ -24,9 +24,14 @@ public class ReverseLinkedListKGroup {
         List<ListNode> headsForReversing = getHeads(head);
         List<Pair<ListNode, ListNode>> listOfPairs = new ArrayList<>();
 
-        headsForReversing.forEach( l -> {
-            listOfPairs.add(reverseList( l, group ));
-        } );
+        int counter = 0;
+        for (ListNode l : headsForReversing) {
+            if (counter % 2 == 0)
+                listOfPairs.add( reverseList( l, group ) );
+            else
+                listOfPairs.add( normalList(l, group ));
+            counter++;
+        }
 
         for (int i = 0; i < listOfPairs.size() - 1; i++) {
             Pair<ListNode, ListNode> currentPair = listOfPairs.get( i );
@@ -37,6 +42,18 @@ public class ReverseLinkedListKGroup {
 
         ListNode newHead = listOfPairs.get( 0 ).getLeft();
         return newHead;
+    }
+
+    private Pair<ListNode, ListNode> normalList(ListNode head, Integer group) {
+        ListNode newHead = head;
+        ListNode current = head;
+        ListNode prev = null;
+        for (int i = 0; i < group && current != null; i++) {
+            prev = current;
+            current = current.next;
+        }
+        ListNode newTail = prev;
+        return new ImmutablePair<>( newHead, newTail );
     }
 
     private List<ListNode> getHeads(ListNode head) {
